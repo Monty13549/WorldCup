@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T20:50:50+00:00",
-  "match_count": 33,
-  "upcoming_count": 39,
+  "updated_at": "2026-06-20T22:06:56+00:00",
+  "match_count": 34,
+  "upcoming_count": 38,
   "matches": [
     {
       "stage": "group_A",
@@ -250,6 +250,20 @@
       "team2": "Ecuador",
       "score1": 1,
       "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_E",
+      "date": "2026-06-20",
+      "time": "4:00 p.m. UTC−4",
+      "stadium": "BMO Field",
+      "team1": "Germany",
+      "team2": "Ivory Coast",
+      "score1": 2,
+      "score2": 1,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
@@ -572,20 +586,6 @@
       "stadium": "Levi's Stadium",
       "team1": "Paraguay",
       "team2": "Australia",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_E",
-      "date": "2026-06-20",
-      "time": "4:00 p.m. UTC−4",
-      "stadium": "BMO Field",
-      "team1": "Germany",
-      "team2": "Ivory Coast",
       "score1": null,
       "score2": null,
       "pens1": null,

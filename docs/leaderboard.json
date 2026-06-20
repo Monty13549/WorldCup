@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-20T20:58:17+00:00",
-  "results_updated_at": "2026-06-20T20:50:50+00:00",
-  "match_count": 33,
-  "upcoming_count": 39,
+  "updated_at": "2026-06-20T22:06:56+00:00",
+  "results_updated_at": "2026-06-20T22:06:56+00:00",
+  "match_count": 34,
+  "upcoming_count": 38,
   "scoring": {
     "tiers": {
       "1": {
@@ -744,68 +744,6 @@
       "rank": 2
     },
     {
-      "player": "Jodie",
-      "total": 2,
-      "teams": [
-        {
-          "team": "Germany",
-          "tier": 1,
-          "bonus": false,
-          "matches_played": 1,
-          "goals_for": 7,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 3
-        },
-        {
-          "team": "Japan",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 1,
-          "goals_for": 2,
-          "goals_against": 2,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -2
-        },
-        {
-          "team": "South Korea",
-          "tier": 3,
-          "bonus": false,
-          "matches_played": 2,
-          "goals_for": 2,
-          "goals_against": 2,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 2
-        },
-        {
-          "team": "Paraguay",
-          "tier": 3,
-          "bonus": false,
-          "matches_played": 2,
-          "goals_for": 2,
-          "goals_against": 4,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -2
-        },
-        {
-          "team": "Saudi Arabia",
-          "tier": 3,
-          "bonus": true,
-          "matches_played": 1,
-          "goals_for": 1,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 1
-        }
-      ],
-      "rank": 3
-    },
-    {
       "player": "Henry",
       "total": 1,
       "teams": [
@@ -865,7 +803,7 @@
           "points": 1
         }
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "player": "Alec",
@@ -927,11 +865,73 @@
           "points": 3
         }
       ],
+      "rank": 4
+    },
+    {
+      "player": "Jodie",
+      "total": 0,
+      "teams": [
+        {
+          "team": "Germany",
+          "tier": 1,
+          "bonus": false,
+          "matches_played": 2,
+          "goals_for": 9,
+          "goals_against": 2,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        },
+        {
+          "team": "Japan",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -2
+        },
+        {
+          "team": "South Korea",
+          "tier": 3,
+          "bonus": false,
+          "matches_played": 2,
+          "goals_for": 2,
+          "goals_against": 2,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 2
+        },
+        {
+          "team": "Paraguay",
+          "tier": 3,
+          "bonus": false,
+          "matches_played": 2,
+          "goals_for": 2,
+          "goals_against": 4,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -2
+        },
+        {
+          "team": "Saudi Arabia",
+          "tier": 3,
+          "bonus": true,
+          "matches_played": 1,
+          "goals_for": 1,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        }
+      ],
       "rank": 5
     },
     {
       "player": "Sam",
-      "total": 0,
+      "total": -1,
       "teams": [
         {
           "team": "Portugal",
@@ -959,12 +959,12 @@
           "team": "Ivory Coast",
           "tier": 3,
           "bonus": false,
-          "matches_played": 1,
-          "goals_for": 1,
-          "goals_against": 0,
+          "matches_played": 2,
+          "goals_for": 2,
+          "goals_against": 2,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 3
+          "points": 2
         },
         {
           "team": "Czechia",
