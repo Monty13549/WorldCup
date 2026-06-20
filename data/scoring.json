@@ -1,0 +1,15 @@
+{
+  "tiers": {
+    "1": {"goal_for": 1, "goal_against": -4},
+    "2": {"goal_for": 2, "goal_against": -3},
+    "3": {"goal_for": 3, "goal_against": -2},
+    "4": {"goal_for": 4, "goal_against": -1}
+  },
+  "penalty_shootout_win": 3,
+  "penalty_shootout_loss": -3,
+  "notes": [
+    "Goals scored in penalty shootouts do NOT count towards goal totals.",
+    "Third-place playoff DOES count.",
+    "Source: Football World 2026 Cup Entry.xlsx, family screenshot tier numbering."
+  ]
+}

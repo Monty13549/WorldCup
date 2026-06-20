@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Crawford WC 2026 Sweepstake</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Crawford World Cup 2026 Sweepstake</h1>
+  <p class="sub" id="meta">Loading…</p>
+</header>
+
+<main>
+  <section id="leaderboard-section">
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead>
+        <tr><th>#</th><th>Player</th><th class="num">Points</th><th class="num">Teams played</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="players-section">
+    <h2>Per-player breakdown</h2>
+    <div id="players"></div>
+  </section>
+
+  <section id="results-section">
+    <h2>Recent results</h2>
+    <ul id="results"></ul>
+  </section>
+
+  <section id="rules-section">
+    <h2>Scoring rules</h2>
+    <table id="rules">
+      <thead><tr><th>Tier</th><th class="num">Goal for</th><th class="num">Goal against</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note" id="rules-notes"></p>
+  </section>
+</main>
+
+<footer>
+  <p>Auto-updates every 30 minutes from <a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup">Wikipedia</a>. Source: <a href="https://github.com/">repo</a>.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
