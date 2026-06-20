@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-20T17:54:50+00:00",
-  "results_updated_at": "2026-06-20T17:54:50+00:00",
-  "match_count": 32,
-  "upcoming_count": 40,
+  "updated_at": "2026-06-20T19:26:25+00:00",
+  "results_updated_at": "2026-06-20T19:26:25+00:00",
+  "match_count": 33,
+  "upcoming_count": 39,
   "scoring": {
     "tiers": {
       "1": {
@@ -621,7 +621,7 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 19,
+      "total": 12,
       "teams": [
         {
           "team": "Spain",
@@ -660,12 +660,12 @@
           "team": "Sweden",
           "tier": 3,
           "bonus": false,
-          "matches_played": 1,
-          "goals_for": 5,
-          "goals_against": 1,
+          "matches_played": 2,
+          "goals_for": 6,
+          "goals_against": 6,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 13
+          "points": 6
         },
         {
           "team": "Curacao",
@@ -1117,18 +1117,18 @@
     },
     {
       "player": "Monty",
-      "total": -9,
+      "total": -8,
       "teams": [
         {
           "team": "Netherlands",
           "tier": 1,
           "bonus": false,
-          "matches_played": 1,
-          "goals_for": 2,
-          "goals_against": 2,
+          "matches_played": 2,
+          "goals_for": 7,
+          "goals_against": 3,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -6
+          "points": -5
         },
         {
           "team": "Switzerland",

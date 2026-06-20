@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T17:54:50+00:00",
-  "match_count": 32,
-  "upcoming_count": 40,
+  "updated_at": "2026-06-20T19:26:25+00:00",
+  "match_count": 33,
+  "upcoming_count": 39,
   "matches": [
     {
       "stage": "group_A",
@@ -276,6 +276,20 @@
       "stadium": "Estadio BBVA",
       "team1": "Sweden",
       "team2": "Tunisia",
+      "score1": 5,
+      "score2": 1,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_F",
+      "date": "2026-06-20",
+      "time": "12:00 p.m. UTC−5",
+      "stadium": "NRG Stadium",
+      "team1": "Netherlands",
+      "team2": "Sweden",
       "score1": 5,
       "score2": 1,
       "pens1": null,
@@ -614,20 +628,6 @@
       "stadium": "MetLife Stadium",
       "team1": "Ecuador",
       "team2": "Germany",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_F",
-      "date": "2026-06-20",
-      "time": "12:00 p.m. UTC−5",
-      "stadium": "NRG Stadium",
-      "team1": "Netherlands",
-      "team2": "Sweden",
       "score1": null,
       "score2": null,
       "pens1": null,
