@@ -1,65 +1,72 @@
 "use strict";
 
+// Country → flag emoji map for all 48 WC 2026 teams
+const FLAGS = {
+  "Mexico": "🇲🇽", "Switzerland": "🇨🇭", "Brazil": "🇧🇷", "USA": "🇺🇸",
+  "Germany": "🇩🇪", "Netherlands": "🇳🇱", "Belgium": "🇧🇪", "Spain": "🇪🇸",
+  "France": "🇫🇷", "Argentina": "🇦🇷", "Portugal": "🇵🇹", "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "Czechia": "🇨🇿", "Canada": "🇨🇦", "Morocco": "🇲🇦", "Turkey": "🇹🇷",
+  "Ecuador": "🇪🇨", "Japan": "🇯🇵", "Egypt": "🇪🇬", "Uruguay": "🇺🇾",
+  "Norway": "🇳🇴", "Austria": "🇦🇹", "Colombia": "🇨🇴", "Croatia": "🇭🇷",
+  "South Korea": "🇰🇷", "Bosnia and Herzegovina": "🇧🇦", "Scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+  "Paraguay": "🇵🇾", "Ivory Coast": "🇨🇮", "Sweden": "🇸🇪", "Iran": "🇮🇷",
+  "Saudi Arabia": "🇸🇦", "Senegal": "🇸🇳", "Algeria": "🇩🇿", "DR Congo": "🇨🇩",
+  "Ghana": "🇬🇭", "South Africa": "🇿🇦", "Qatar": "🇶🇦", "Haiti": "🇭🇹",
+  "Australia": "🇦🇺", "Curacao": "🇨🇼", "Tunisia": "🇹🇳", "New Zealand": "🇳🇿",
+  "Cape Verde": "🇨🇻", "Iraq": "🇮🇶", "Jordan": "🇯🇴", "Uzbekistan": "🇺🇿",
+  "Panama": "🇵🇦",
+};
+
+const flag = (team) => FLAGS[team] || "⚽";
+
 async function load() {
-  const res = await fetch("leaderboard.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("Failed to load leaderboard.json");
-  const data = await res.json();
-  const results = await fetch("results.json", { cache: "no-store" }).then(r => r.json());
-  render(data, results);
+  const lb = await fetch("leaderboard.json", { cache: "no-store" }).then(r => r.json());
+  const rs = await fetch("results.json",     { cache: "no-store" }).then(r => r.json());
+  render(lb, rs);
 }
 
-function fmtPts(n) {
-  return n > 0 ? `+${n}` : `${n}`;
-}
-
-function ptsClass(n) {
-  if (n > 0) return "points-pos";
-  if (n < 0) return "points-neg";
-  return "";
-}
+const fmtPts = (n) => (n > 0 ? `+${n}` : `${n}`);
+const ptsClass = (n) => (n > 0 ? "points-pos" : n < 0 ? "points-neg" : "");
 
 function fmtDate(iso) {
   if (!iso) return "";
   const d = new Date(iso + "T00:00:00Z");
   return d.toLocaleDateString(undefined, { day: "numeric", month: "short", timeZone: "UTC" });
 }
-
 function fmtUpdated(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 }
+function medal(rank) {
+  const cls = rank <= 3 ? `medal-${rank}` : "medal-x";
+  const txt = rank <= 3 ? (rank === 1 ? "🏆" : rank === 2 ? "2" : "3") : rank;
+  return `<span class="medal ${cls}">${txt}</span>`;
+}
 
 function render(data, results) {
-  // Meta line
-  const meta = document.getElementById("meta");
-  meta.textContent = `Last updated ${fmtUpdated(data.updated_at)} · ${data.match_count} matches played`;
+  document.getElementById("meta").textContent =
+    `${data.match_count} matches played · last updated ${fmtUpdated(data.updated_at)}`;
 
   // Leaderboard
   const tbody = document.querySelector("#leaderboard tbody");
-  tbody.innerHTML = "";
-  for (const row of data.leaderboard) {
-    const teamsPlayed = row.teams.reduce((a, t) => a + (t.matches_played > 0 ? 1 : 0), 0);
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${row.rank}</td>
-      <td>${row.player}</td>
-      <td class="num points ${ptsClass(row.total)}">${fmtPts(row.total)}</td>
-      <td class="num">${teamsPlayed}/${row.teams.length}</td>
-    `;
-    tbody.appendChild(tr);
-  }
+  tbody.innerHTML = data.leaderboard.map(row => {
+    const played = row.teams.reduce((a, t) => a + (t.matches_played > 0 ? 1 : 0), 0);
+    return `
+      <tr>
+        <td class="pos">${medal(row.rank)}</td>
+        <td class="player">${row.player}</td>
+        <td class="num points ${ptsClass(row.total)}">${fmtPts(row.total)}</td>
+        <td class="num">${played}/${row.teams.length}</td>
+      </tr>`;
+  }).join("");
 
-  // Per-player breakdown
+  // Per-player cards
   const players = document.getElementById("players");
-  players.innerHTML = "";
-  for (const row of data.leaderboard) {
-    const det = document.createElement("details");
-    det.className = "player-card";
-    det.open = row.rank === 1;
+  players.innerHTML = data.leaderboard.map(row => {
     const teamRows = row.teams.map(t => `
       <tr>
-        <td><span class="tier tier-${t.tier}">T${t.tier}</span> ${t.team}</td>
+        <td><span class="flag">${flag(t.team)}</span><span class="tier tier-${t.tier}">T${t.tier}</span> ${t.team}</td>
         <td class="num">${t.matches_played}</td>
         <td class="num">${t.goals_for}</td>
         <td class="num">${t.goals_against}</td>
@@ -67,54 +74,51 @@ function render(data, results) {
         <td class="num">${t.pen_losses ? "-" + t.pen_losses : "—"}</td>
         <td class="num ${ptsClass(t.points)}"><strong>${fmtPts(t.points)}</strong></td>
       </tr>`).join("");
-    det.innerHTML = `
-      <summary>
-        <span><strong>#${row.rank}</strong> · <span class="name">${row.player}</span></span>
-        <span class="total ${ptsClass(row.total)}">${fmtPts(row.total)}</span>
-      </summary>
-      <div class="team-table">
-        <table>
-          <thead><tr><th>Team</th><th class="num">MP</th><th class="num">GF</th><th class="num">GA</th><th class="num">P+</th><th class="num">P-</th><th class="num">Pts</th></tr></thead>
-          <tbody>${teamRows}</tbody>
-        </table>
-      </div>
-    `;
-    players.appendChild(det);
-  }
+    return `
+      <details class="player-card" ${row.rank === 1 ? "open" : ""}>
+        <summary>
+          <div class="left">${medal(row.rank)} <span class="name">${row.player}</span></div>
+          <span class="total ${ptsClass(row.total)}">${fmtPts(row.total)}</span>
+        </summary>
+        <div class="team-table">
+          <table>
+            <thead><tr><th>Team</th><th class="num">MP</th><th class="num">GF</th><th class="num">GA</th><th class="num">P+</th><th class="num">P-</th><th class="num">Pts</th></tr></thead>
+            <tbody>${teamRows}</tbody>
+          </table>
+        </div>
+      </details>`;
+  }).join("");
 
   // Recent results
   const ul = document.getElementById("results");
-  ul.innerHTML = "";
   const recent = [...(results.matches || [])]
     .sort((a, b) => (b.date || "").localeCompare(a.date || ""))
     .slice(0, 12);
-  for (const m of recent) {
-    const pens = (m.pens1 != null && m.pens2 != null)
-      ? `<span class="pens">(${m.pens1}–${m.pens2} pens)</span>` : "";
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <span class="date">${fmtDate(m.date)}</span>
-      <span class="t1">${m.team1}</span>
-      <span class="score">${m.score1}–${m.score2}</span>
-      <span class="t2">${m.team2} ${pens}</span>
-    `;
-    ul.appendChild(li);
-  }
+  ul.innerHTML = recent.map(m => {
+    const hasPens = m.pens1 != null && m.pens2 != null;
+    const pens = hasPens ? `<span class="pens">(${m.pens1}–${m.pens2} pens)</span>` : "";
+    return `
+      <li class="${hasPens ? "pens-w" : ""}">
+        <span class="date">${fmtDate(m.date)}</span>
+        <span class="t1">${m.team1} <span class="flag">${flag(m.team1)}</span></span>
+        <span class="score">${m.score1}–${m.score2}</span>
+        <span class="t2"><span class="flag">${flag(m.team2)}</span> ${m.team2}${pens}</span>
+      </li>`;
+  }).join("");
 
   // Rules table
   const rulesBody = document.querySelector("#rules tbody");
-  rulesBody.innerHTML = "";
-  for (const tier of [1, 2, 3, 4]) {
+  rulesBody.innerHTML = [1, 2, 3, 4].map(tier => {
     const r = data.scoring.tiers[tier];
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="tier tier-${tier}">T${tier}</span></td>
-      <td class="num points-pos">+${r.goal_for}</td>
-      <td class="num points-neg">${r.goal_against}</td>
-    `;
-    rulesBody.appendChild(tr);
-  }
-  const notes = data.scoring.notes || [];
+    return `
+      <tr>
+        <td><span class="tier tier-${tier}">T${tier}</span></td>
+        <td class="num points-pos">+${r.goal_for}</td>
+        <td class="num points-neg">${r.goal_against}</td>
+      </tr>`;
+  }).join("");
+
+  const notes = [...(data.scoring.notes || [])];
   notes.push(`Penalty shootout: win = +${data.scoring.penalty_shootout_win}, loss = ${data.scoring.penalty_shootout_loss}.`);
   document.getElementById("rules-notes").innerHTML = notes.map(n => `· ${n}`).join("<br>");
 }
