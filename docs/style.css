@@ -230,6 +230,16 @@ tbody tr:last-child td { border-bottom: 0; }
 #results .pens { color: var(--gold); font-size: .76rem; margin-left: 4px; }
 #results .flag { font-size: 1.1rem; margin: 0 4px; }
 
+/* ---------- History chart ---------- */
+.chart-wrap {
+  position: relative;
+  height: 320px;
+  margin: 4px -4px 0;
+}
+@media (max-width: 540px) {
+  .chart-wrap { height: 260px; }
+}
+
 /* ---------- Upcoming ---------- */
 .card-sub { color: var(--muted); font-size: .78rem; }
 #upcoming { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }

@@ -44,6 +44,15 @@
     </table>
   </section>
 
+  <section class="card" id="history-section">
+    <div class="card-head">
+      <h2><span class="dot"></span> Score history</h2>
+      <span class="card-sub" id="history-meta"></span>
+    </div>
+    <div class="chart-wrap"><canvas id="history-chart"></canvas></div>
+    <p class="note">End-of-day standings since the tournament kicked off. Tap a name in the legend to hide that line.</p>
+  </section>
+
   <section class="card" id="players-section">
     <div class="card-head"><h2><span class="dot"></span> Squad-by-squad</h2></div>
     <div id="players"></div>
@@ -77,6 +86,7 @@
   <p>Auto-updates every 30 minutes from <a href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup">Wikipedia</a>. £5 a head · Lis's decision is final.</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

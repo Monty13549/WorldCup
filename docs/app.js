@@ -19,10 +19,29 @@ const FLAGS = {
 
 const flag = (team) => FLAGS[team] || "⚽";
 
+// Stable colour per player (works on dark bg)
+const PLAYER_COLORS = {
+  "Alec":   "#ef4444",
+  "Dad":    "#f97316",
+  "Henry":  "#eab308",
+  "Jemima": "#84cc16",
+  "Jess":   "#10b981",
+  "Jodie":  "#06b6d4",
+  "Meg":    "#3b82f6",
+  "Monty":  "#8b5cf6",
+  "Mum":    "#f5b800",
+  "Sam":    "#ec4899",
+};
+const colorFor = (p) => PLAYER_COLORS[p] || "#9ca3af";
+
 async function load() {
   const lb = await fetch("leaderboard.json", { cache: "no-store" }).then(r => r.json());
   const rs = await fetch("results.json",     { cache: "no-store" }).then(r => r.json());
-  render(lb, rs);
+  let hist = null;
+  try {
+    hist = await fetch("history.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null);
+  } catch (e) { hist = null; }
+  render(lb, rs, hist);
 }
 
 const fmtPts = (n) => (n > 0 ? `+${n}` : `${n}`);
@@ -44,7 +63,85 @@ function medal(rank) {
   return `<span class="medal ${cls}">${txt}</span>`;
 }
 
-function render(data, results) {
+function renderHistoryChart(hist, leaderboard) {
+  const meta = document.getElementById("history-meta");
+  if (!hist || !hist.history || hist.history.length === 0) {
+    meta.textContent = "no history yet";
+    return;
+  }
+  const labels = hist.history.map(e => e.date);
+  // Order datasets by current rank so the leader's line stacks on top in tooltips
+  const orderedPlayers = leaderboard.map(r => r.player);
+  const datasets = orderedPlayers.map(player => ({
+    label: player,
+    data: hist.history.map(e => e.scores[player] ?? null),
+    borderColor: colorFor(player),
+    backgroundColor: colorFor(player) + "33",
+    borderWidth: 2,
+    pointRadius: 2,
+    pointHoverRadius: 5,
+    tension: 0.25,
+    spanGaps: true,
+  }));
+  meta.textContent = `${hist.history.length} day(s)`;
+
+  const ctx = document.getElementById("history-chart");
+  if (!ctx || typeof Chart === "undefined") return;
+  if (window._historyChart) window._historyChart.destroy();
+  window._historyChart = new Chart(ctx, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: {
+            color: "#ecf2ee",
+            usePointStyle: true,
+            pointStyle: "circle",
+            padding: 10,
+            font: { size: 11 },
+          },
+        },
+        tooltip: {
+          backgroundColor: "rgba(20,48,40,0.95)",
+          borderColor: "rgba(245,184,0,0.4)",
+          borderWidth: 1,
+          titleColor: "#ffe680",
+          bodyColor: "#ecf2ee",
+          padding: 10,
+          itemSort: (a, b) => b.parsed.y - a.parsed.y,
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y > 0 ? "+" : ""}${ctx.parsed.y}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: "#8aa39a",
+            callback: (val, idx) => {
+              const iso = labels[idx];
+              if (!iso) return "";
+              const d = new Date(iso + "T00:00:00Z");
+              return d.toLocaleDateString(undefined, { day: "numeric", month: "short", timeZone: "UTC" });
+            },
+          },
+          grid: { color: "rgba(255,255,255,0.04)" },
+        },
+        y: {
+          ticks: { color: "#8aa39a" },
+          grid: { color: "rgba(255,255,255,0.04)" },
+        },
+      },
+    },
+  });
+}
+
+function render(data, results, hist) {
   document.getElementById("meta").textContent =
     `${data.match_count} matches played · last updated ${fmtUpdated(data.updated_at)}`;
 
@@ -157,6 +254,8 @@ function render(data, results) {
   const notes = [...(data.scoring.notes || [])];
   notes.push(`Penalty shootout: win = +${data.scoring.penalty_shootout_win}, loss = ${data.scoring.penalty_shootout_loss}.`);
   document.getElementById("rules-notes").innerHTML = notes.map(n => `· ${n}`).join("<br>");
+
+  renderHistoryChart(hist, data.leaderboard);
 }
 
 load().catch(err => {

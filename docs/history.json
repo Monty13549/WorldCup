@@ -1,0 +1,152 @@
+{
+  "updated_at": "2026-06-20T20:56:52+00:00",
+  "players": [
+    "Monty",
+    "Jess",
+    "Jemima",
+    "Alec",
+    "Henry",
+    "Jodie",
+    "Mum",
+    "Dad",
+    "Sam",
+    "Meg"
+  ],
+  "history": [
+    {
+      "date": "2026-06-11",
+      "scores": {
+        "Jodie": 4,
+        "Monty": 0,
+        "Jess": 0,
+        "Jemima": 0,
+        "Alec": 0,
+        "Henry": 0,
+        "Mum": 0,
+        "Dad": 0,
+        "Meg": 0,
+        "Sam": -4
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "scores": {
+        "Jemima": 1,
+        "Monty": 0,
+        "Jess": 0,
+        "Alec": 0,
+        "Henry": 0,
+        "Mum": 0,
+        "Meg": 0,
+        "Jodie": -1,
+        "Dad": -1,
+        "Sam": -4
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "scores": {
+        "Mum": 8,
+        "Alec": 3,
+        "Jemima": 1,
+        "Jess": 0,
+        "Henry": -1,
+        "Jodie": -1,
+        "Dad": -2,
+        "Monty": -3,
+        "Sam": -4,
+        "Meg": -6
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "scores": {
+        "Mum": 18,
+        "Alec": 3,
+        "Jess": 0,
+        "Jemima": 0,
+        "Jodie": 0,
+        "Henry": -1,
+        "Sam": -1,
+        "Dad": -2,
+        "Monty": -9,
+        "Meg": -12
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "scores": {
+        "Mum": 18,
+        "Sam": 4,
+        "Alec": 3,
+        "Jodie": 1,
+        "Jemima": 0,
+        "Dad": 0,
+        "Henry": -1,
+        "Jess": -3,
+        "Monty": -10,
+        "Meg": -12
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "scores": {
+        "Mum": 18,
+        "Jemima": 8,
+        "Sam": 4,
+        "Alec": 3,
+        "Jodie": 1,
+        "Dad": 0,
+        "Henry": -1,
+        "Jess": -9,
+        "Monty": -10,
+        "Meg": -12
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "scores": {
+        "Mum": 21,
+        "Alec": 2,
+        "Jodie": 1,
+        "Sam": 1,
+        "Jemima": 0,
+        "Dad": 0,
+        "Henry": -1,
+        "Jess": -6,
+        "Monty": -9,
+        "Meg": -12
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "scores": {
+        "Mum": 21,
+        "Dad": 6,
+        "Alec": 2,
+        "Sam": 0,
+        "Henry": -1,
+        "Jodie": -1,
+        "Jess": -2,
+        "Jemima": -5,
+        "Monty": -9,
+        "Meg": -12
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "scores": {
+        "Mum": 19,
+        "Dad": 6,
+        "Jodie": 2,
+        "Henry": 1,
+        "Alec": 0,
+        "Sam": 0,
+        "Jess": -2,
+        "Jemima": -5,
+        "Monty": -9,
+        "Meg": -13
+      }
+    }
+  ]
+}
