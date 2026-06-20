@@ -1,93 +1,94 @@
 {
+  "_note": "tier values are mapped directly to the Excel tier letters (A=1, B=2, C=3, D=4). Source: 'Football World 2026 Cup Entry.xlsx'. Scoring per data/scoring.json.",
   "players": [
     {
       "name": "Monty",
       "teams": [
-        {"team": "Netherlands", "tier": 1},
-        {"team": "Switzerland", "tier": 2},
-        {"team": "Egypt", "tier": 3},
-        {"team": "DR Congo", "tier": 4}
+        {"team": "Netherlands",  "tier": 1},
+        {"team": "Switzerland",  "tier": 1},
+        {"team": "Egypt",        "tier": 2},
+        {"team": "DR Congo",     "tier": 3}
       ]
     },
     {
       "name": "Jess",
       "teams": [
-        {"team": "Belgium", "tier": 1},
-        {"team": "Mexico", "tier": 2},
-        {"team": "Algeria", "tier": 3},
+        {"team": "Belgium",      "tier": 1},
+        {"team": "Mexico",       "tier": 1},
+        {"team": "Algeria",      "tier": 3},
         {"team": "South Africa", "tier": 4}
       ]
     },
     {
       "name": "Jemima",
       "teams": [
-        {"team": "Argentina", "tier": 1},
-        {"team": "Croatia", "tier": 2},
-        {"team": "Norway", "tier": 3},
-        {"team": "Tunisia", "tier": 4}
+        {"team": "Argentina",    "tier": 1},
+        {"team": "Croatia",      "tier": 2},
+        {"team": "Norway",       "tier": 2},
+        {"team": "Tunisia",      "tier": 4}
       ]
     },
     {
       "name": "Alec",
       "teams": [
-        {"team": "England", "tier": 1},
-        {"team": "Senegal", "tier": 2},
-        {"team": "Austria", "tier": 3},
-        {"team": "Scotland", "tier": 4}
+        {"team": "England",      "tier": 1},
+        {"team": "Senegal",      "tier": 3},
+        {"team": "Austria",      "tier": 2},
+        {"team": "Scotland",     "tier": 3}
       ]
     },
     {
       "name": "Henry",
       "teams": [
-        {"team": "France", "tier": 1},
-        {"team": "Morocco", "tier": 2},
-        {"team": "Panama", "tier": 3},
-        {"team": "Uzbekistan", "tier": 4}
+        {"team": "France",       "tier": 1},
+        {"team": "Morocco",      "tier": 2},
+        {"team": "Panama",       "tier": 4},
+        {"team": "Uzbekistan",   "tier": 4}
       ]
     },
     {
       "name": "Jodie",
       "teams": [
-        {"team": "Germany", "tier": 1},
-        {"team": "Japan", "tier": 2},
-        {"team": "South Korea", "tier": 3},
-        {"team": "Paraguay", "tier": 4}
+        {"team": "Germany",      "tier": 1},
+        {"team": "Japan",        "tier": 2},
+        {"team": "South Korea",  "tier": 3},
+        {"team": "Paraguay",     "tier": 3}
       ]
     },
     {
       "name": "Mum",
       "teams": [
-        {"team": "Spain", "tier": 1},
-        {"team": "Colombia", "tier": 2},
-        {"team": "Australia", "tier": 3},
-        {"team": "Sweden", "tier": 4}
+        {"team": "Spain",        "tier": 1},
+        {"team": "Colombia",     "tier": 2},
+        {"team": "Australia",    "tier": 4},
+        {"team": "Sweden",       "tier": 3}
       ]
     },
     {
       "name": "Dad",
       "teams": [
-        {"team": "Brazil", "tier": 1},
-        {"team": "Iran", "tier": 2},
-        {"team": "Canada", "tier": 3},
-        {"team": "Qatar", "tier": 4}
+        {"team": "Brazil",       "tier": 1},
+        {"team": "Iran",         "tier": 3},
+        {"team": "Canada",       "tier": 2},
+        {"team": "Qatar",        "tier": 4}
       ]
     },
     {
       "name": "Sam",
       "teams": [
-        {"team": "Portugal", "tier": 1},
-        {"team": "Uruguay", "tier": 2},
-        {"team": "Ivory Coast", "tier": 3},
-        {"team": "Czechia", "tier": 4}
+        {"team": "Portugal",     "tier": 1},
+        {"team": "Uruguay",      "tier": 2},
+        {"team": "Ivory Coast",  "tier": 3},
+        {"team": "Czechia",      "tier": 2}
       ]
     },
     {
       "name": "Meg",
       "teams": [
-        {"team": "USA", "tier": 1},
-        {"team": "Turkey", "tier": 2},
-        {"team": "Ecuador", "tier": 3},
-        {"team": "Iraq", "tier": 4}
+        {"team": "USA",          "tier": 1},
+        {"team": "Turkey",       "tier": 2},
+        {"team": "Ecuador",      "tier": 2},
+        {"team": "Iraq",         "tier": 4}
       ]
     }
   ],

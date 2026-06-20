@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-20T10:03:32+00:00",
-  "results_updated_at": "2026-06-20T10:03:32+00:00",
+  "updated_at": "2026-06-20T10:26:11+00:00",
+  "results_updated_at": "2026-06-20T09:27:02+00:00",
   "match_count": 32,
   "scoring": {
     "tiers": {
@@ -32,7 +32,7 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 24,
+      "total": 22,
       "teams": [
         {
           "team": "Spain",
@@ -56,30 +56,30 @@
         },
         {
           "team": "Australia",
-          "tier": 3,
+          "tier": 4,
           "matches_played": 2,
           "goals_for": 2,
           "goals_against": 2,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 2
+          "points": 6
         },
         {
           "team": "Sweden",
-          "tier": 4,
+          "tier": 3,
           "matches_played": 1,
           "goals_for": 5,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 19
+          "points": 13
         }
       ],
       "rank": 1
     },
     {
       "player": "Dad",
-      "total": 14,
+      "total": 10,
       "teams": [
         {
           "team": "Brazil",
@@ -93,23 +93,23 @@
         },
         {
           "team": "Iran",
-          "tier": 2,
+          "tier": 3,
           "matches_played": 1,
           "goals_for": 2,
           "goals_against": 2,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -2
+          "points": 2
         },
         {
           "team": "Canada",
-          "tier": 3,
+          "tier": 2,
           "matches_played": 2,
           "goals_for": 7,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 19
+          "points": 11
         },
         {
           "team": "Qatar",
@@ -126,7 +126,7 @@
     },
     {
       "player": "Jodie",
-      "total": 7,
+      "total": 1,
       "teams": [
         {
           "team": "Germany",
@@ -160,20 +160,67 @@
         },
         {
           "team": "Paraguay",
-          "tier": 4,
+          "tier": 3,
           "matches_played": 2,
           "goals_for": 2,
           "goals_against": 4,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 4
+          "points": -2
         }
       ],
       "rank": 3
     },
     {
+      "player": "Henry",
+      "total": 0,
+      "teams": [
+        {
+          "team": "France",
+          "tier": 1,
+          "matches_played": 1,
+          "goals_for": 3,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -1
+        },
+        {
+          "team": "Morocco",
+          "tier": 2,
+          "matches_played": 2,
+          "goals_for": 2,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        },
+        {
+          "team": "Panama",
+          "tier": 4,
+          "matches_played": 1,
+          "goals_for": 0,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -1
+        },
+        {
+          "team": "Uzbekistan",
+          "tier": 4,
+          "matches_played": 1,
+          "goals_for": 1,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        }
+      ],
+      "rank": 4
+    },
+    {
       "player": "Jemima",
-      "total": 4,
+      "total": -1,
       "teams": [
         {
           "team": "Argentina",
@@ -197,13 +244,13 @@
         },
         {
           "team": "Norway",
-          "tier": 3,
+          "tier": 2,
           "matches_played": 1,
           "goals_for": 4,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 10
+          "points": 5
         },
         {
           "team": "Tunisia",
@@ -216,11 +263,105 @@
           "points": -1
         }
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "player": "Alec",
+      "total": -3,
+      "teams": [
+        {
+          "team": "England",
+          "tier": 1,
+          "matches_played": 1,
+          "goals_for": 4,
+          "goals_against": 2,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -4
+        },
+        {
+          "team": "Senegal",
+          "tier": 3,
+          "matches_played": 1,
+          "goals_for": 1,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -3
+        },
+        {
+          "team": "Austria",
+          "tier": 2,
+          "matches_played": 1,
+          "goals_for": 3,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 3
+        },
+        {
+          "team": "Scotland",
+          "tier": 3,
+          "matches_played": 2,
+          "goals_for": 1,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player": "Jess",
+      "total": -5,
+      "teams": [
+        {
+          "team": "Belgium",
+          "tier": 1,
+          "matches_played": 1,
+          "goals_for": 1,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -3
+        },
+        {
+          "team": "Mexico",
+          "tier": 1,
+          "matches_played": 2,
+          "goals_for": 3,
+          "goals_against": 0,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 3
+        },
+        {
+          "team": "Algeria",
+          "tier": 3,
+          "matches_played": 1,
+          "goals_for": 0,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -6
+        },
+        {
+          "team": "South Africa",
+          "tier": 4,
+          "matches_played": 2,
+          "goals_for": 1,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        }
+      ],
+      "rank": 7
     },
     {
       "player": "Sam",
-      "total": 4,
+      "total": -6,
       "teams": [
         {
           "team": "Portugal",
@@ -254,20 +395,20 @@
         },
         {
           "team": "Czechia",
-          "tier": 4,
+          "tier": 2,
           "matches_played": 2,
           "goals_for": 2,
           "goals_against": 3,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 5
+          "points": -5
         }
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "player": "Monty",
-      "total": 2,
+      "total": -9,
       "teams": [
         {
           "team": "Netherlands",
@@ -281,171 +422,30 @@
         },
         {
           "team": "Switzerland",
-          "tier": 2,
+          "tier": 1,
           "matches_played": 2,
           "goals_for": 5,
           "goals_against": 2,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 4
+          "points": -3
         },
         {
           "team": "Egypt",
-          "tier": 3,
-          "matches_played": 1,
-          "goals_for": 1,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 1
-        },
-        {
-          "team": "DR Congo",
-          "tier": 4,
-          "matches_played": 1,
-          "goals_for": 1,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 3
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "player": "Alec",
-      "total": -1,
-      "teams": [
-        {
-          "team": "England",
-          "tier": 1,
-          "matches_played": 1,
-          "goals_for": 4,
-          "goals_against": 2,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -4
-        },
-        {
-          "team": "Senegal",
           "tier": 2,
           "matches_played": 1,
           "goals_for": 1,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -7
-        },
-        {
-          "team": "Austria",
-          "tier": 3,
-          "matches_played": 1,
-          "goals_for": 3,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 7
-        },
-        {
-          "team": "Scotland",
-          "tier": 4,
-          "matches_played": 2,
-          "goals_for": 1,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 3
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "player": "Henry",
-      "total": -1,
-      "teams": [
-        {
-          "team": "France",
-          "tier": 1,
-          "matches_played": 1,
-          "goals_for": 3,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
           "points": -1
         },
         {
-          "team": "Morocco",
-          "tier": 2,
-          "matches_played": 2,
-          "goals_for": 2,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 1
-        },
-        {
-          "team": "Panama",
+          "team": "DR Congo",
           "tier": 3,
           "matches_played": 1,
-          "goals_for": 0,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -2
-        },
-        {
-          "team": "Uzbekistan",
-          "tier": 4,
-          "matches_played": 1,
-          "goals_for": 1,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 1
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "player": "Jess",
-      "total": -2,
-      "teams": [
-        {
-          "team": "Belgium",
-          "tier": 1,
-          "matches_played": 1,
           "goals_for": 1,
           "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -3
-        },
-        {
-          "team": "Mexico",
-          "tier": 2,
-          "matches_played": 2,
-          "goals_for": 3,
-          "goals_against": 0,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 6
-        },
-        {
-          "team": "Algeria",
-          "tier": 3,
-          "matches_played": 1,
-          "goals_for": 0,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -6
-        },
-        {
-          "team": "South Africa",
-          "tier": 4,
-          "matches_played": 2,
-          "goals_for": 1,
-          "goals_against": 3,
           "pen_wins": 0,
           "pen_losses": 0,
           "points": 1
@@ -455,7 +455,7 @@
     },
     {
       "player": "Meg",
-      "total": -9,
+      "total": -10,
       "teams": [
         {
           "team": "USA",
@@ -479,13 +479,13 @@
         },
         {
           "team": "Ecuador",
-          "tier": 3,
+          "tier": 2,
           "matches_played": 1,
           "goals_for": 0,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -2
+          "points": -3
         },
         {
           "team": "Iraq",
