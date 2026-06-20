@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PLAYERS = ROOT / "data" / "players.json"
 SCORING = ROOT / "data" / "scoring.json"
+TEAMS   = ROOT / "data" / "teams.json"
 RESULTS = ROOT / "docs" / "results.json"
 OUT = ROOT / "docs" / "leaderboard.json"
 
@@ -105,11 +106,16 @@ def main() -> int:
     for i, row in enumerate(leaderboard, 1):
         row["rank"] = i
 
+    teams_doc = json.loads(TEAMS.read_text()) if TEAMS.exists() else {"teams": {}}
+    teams_meta = teams_doc.get("teams", {})
+
     payload = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "results_updated_at": results.get("updated_at"),
         "match_count": results.get("match_count"),
+        "upcoming_count": results.get("upcoming_count", 0),
         "scoring": scoring,
+        "teams": teams_meta,
         "leaderboard": leaderboard,
     }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")

@@ -106,6 +106,30 @@ function render(data, results) {
       </li>`;
   }).join("");
 
+  // Upcoming matches
+  const upUl = document.getElementById("upcoming");
+  const upMeta = document.getElementById("upcoming-meta");
+  const teamsMeta = data.teams || {};
+  const oddsLabel = (team) => {
+    const o = teamsMeta[team]?.odds;
+    return o != null ? `<span class="odds">${o}/1</span>` : "";
+  };
+  const upcomingAll = [...(results.upcoming || [])].sort((a, b) =>
+    ((a.date || "9999") + (a.time || "")).localeCompare((b.date || "9999") + (b.time || ""))
+  );
+  upMeta.textContent = `${upcomingAll.length} fixtures left`;
+  const next = upcomingAll.slice(0, 10);
+  upUl.innerHTML = next.length === 0
+    ? `<li class="empty">No upcoming fixtures parsed yet.</li>`
+    : next.map(m => `
+      <li class="upcoming-row">
+        <span class="date">${fmtDate(m.date)}${m.time ? " · " + m.time : ""}</span>
+        <span class="t1">${m.team1} <span class="flag">${flag(m.team1)}</span> ${oddsLabel(m.team1)}</span>
+        <span class="vs">vs</span>
+        <span class="t2"><span class="flag">${flag(m.team2)}</span> ${m.team2} ${oddsLabel(m.team2)}</span>
+        ${m.stadium ? `<span class="stadium">@ ${m.stadium}</span>` : ""}
+      </li>`).join("");
+
   // Rules table
   const rulesBody = document.querySelector("#rules tbody");
   rulesBody.innerHTML = [1, 2, 3, 4].map(tier => {

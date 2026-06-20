@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-06-20T10:38:31+00:00",
-  "results_updated_at": "2026-06-20T10:03:32+00:00",
+  "updated_at": "2026-06-20T10:49:08+00:00",
+  "results_updated_at": "2026-06-20T10:49:08+00:00",
   "match_count": 32,
+  "upcoming_count": 40,
   "scoring": {
     "tiers": {
       "1": {
@@ -28,6 +29,296 @@
       "Third-place playoff DOES count.",
       "Source: Football World 2026 Cup Entry.xlsx, family screenshot tier numbering."
     ]
+  },
+  "teams": {
+    "Mexico": {
+      "group": "A",
+      "tier": "A",
+      "rank": 17,
+      "odds": 80
+    },
+    "Czechia": {
+      "group": "A",
+      "tier": "B",
+      "rank": 30,
+      "odds": 300
+    },
+    "South Korea": {
+      "group": "A",
+      "tier": "C",
+      "rank": 33,
+      "odds": 500
+    },
+    "South Africa": {
+      "group": "A",
+      "tier": "D",
+      "rank": 38,
+      "odds": 1000
+    },
+    "Switzerland": {
+      "group": "B",
+      "tier": "A",
+      "rank": 16,
+      "odds": 80
+    },
+    "Canada": {
+      "group": "B",
+      "tier": "B",
+      "rank": 23,
+      "odds": 150
+    },
+    "Bosnia and Herzegovina": {
+      "group": "B",
+      "tier": "C",
+      "rank": 27,
+      "odds": 250
+    },
+    "Qatar": {
+      "group": "B",
+      "tier": "D",
+      "rank": 39,
+      "odds": 1000
+    },
+    "Brazil": {
+      "group": "C",
+      "tier": "A",
+      "rank": 4,
+      "odds": 8
+    },
+    "Morocco": {
+      "group": "C",
+      "tier": "B",
+      "rank": 13,
+      "odds": 50
+    },
+    "Scotland": {
+      "group": "C",
+      "tier": "C",
+      "rank": 26,
+      "odds": 250
+    },
+    "Haiti": {
+      "group": "C",
+      "tier": "D",
+      "rank": 48,
+      "odds": 3000
+    },
+    "USA": {
+      "group": "D",
+      "tier": "A",
+      "rank": 14,
+      "odds": 66
+    },
+    "Turkey": {
+      "group": "D",
+      "tier": "B",
+      "rank": 19,
+      "odds": 80
+    },
+    "Paraguay": {
+      "group": "D",
+      "tier": "C",
+      "rank": 25,
+      "odds": 150
+    },
+    "Australia": {
+      "group": "D",
+      "tier": "D",
+      "rank": 35,
+      "odds": 500
+    },
+    "Germany": {
+      "group": "E",
+      "tier": "A",
+      "rank": 7,
+      "odds": 14
+    },
+    "Ecuador": {
+      "group": "E",
+      "tier": "B",
+      "rank": 20,
+      "odds": 100
+    },
+    "Ivory Coast": {
+      "group": "E",
+      "tier": "C",
+      "rank": 28,
+      "odds": 300
+    },
+    "Curacao": {
+      "group": "E",
+      "tier": "D",
+      "rank": 46,
+      "odds": 2000
+    },
+    "Netherlands": {
+      "group": "F",
+      "tier": "A",
+      "rank": 8,
+      "odds": 20
+    },
+    "Japan": {
+      "group": "F",
+      "tier": "B",
+      "rank": 12,
+      "odds": 50
+    },
+    "Sweden": {
+      "group": "F",
+      "tier": "C",
+      "rank": 22,
+      "odds": 125
+    },
+    "Tunisia": {
+      "group": "F",
+      "tier": "D",
+      "rank": 34,
+      "odds": 500
+    },
+    "Belgium": {
+      "group": "G",
+      "tier": "A",
+      "rank": 10,
+      "odds": 33
+    },
+    "Egypt": {
+      "group": "G",
+      "tier": "B",
+      "rank": 29,
+      "odds": 300
+    },
+    "Iran": {
+      "group": "G",
+      "tier": "C",
+      "rank": 36,
+      "odds": 500
+    },
+    "New Zealand": {
+      "group": "G",
+      "tier": "D",
+      "rank": 42,
+      "odds": 1500
+    },
+    "Spain": {
+      "group": "H",
+      "tier": "A",
+      "rank": 1,
+      "odds": 4.5
+    },
+    "Uruguay": {
+      "group": "H",
+      "tier": "B",
+      "rank": 15,
+      "odds": 66
+    },
+    "Saudi Arabia": {
+      "group": "H",
+      "tier": "C",
+      "rank": 40,
+      "odds": 1000
+    },
+    "Cape Verde": {
+      "group": "H",
+      "tier": "D",
+      "rank": 45,
+      "odds": 2000
+    },
+    "France": {
+      "group": "I",
+      "tier": "A",
+      "rank": 2,
+      "odds": 5
+    },
+    "Norway": {
+      "group": "I",
+      "tier": "B",
+      "rank": 9,
+      "odds": 25
+    },
+    "Senegal": {
+      "group": "I",
+      "tier": "C",
+      "rank": 21,
+      "odds": 125
+    },
+    "Iraq": {
+      "group": "I",
+      "tier": "D",
+      "rank": 43,
+      "odds": 1500
+    },
+    "Argentina": {
+      "group": "J",
+      "tier": "A",
+      "rank": 5,
+      "odds": 8
+    },
+    "Austria": {
+      "group": "J",
+      "tier": "B",
+      "rank": 24,
+      "odds": 150
+    },
+    "Algeria": {
+      "group": "J",
+      "tier": "C",
+      "rank": 32,
+      "odds": 400
+    },
+    "Jordan": {
+      "group": "J",
+      "tier": "D",
+      "rank": 47,
+      "odds": 2500
+    },
+    "Portugal": {
+      "group": "K",
+      "tier": "A",
+      "rank": 6,
+      "odds": 10
+    },
+    "Colombia": {
+      "group": "K",
+      "tier": "B",
+      "rank": 11,
+      "odds": 33
+    },
+    "DR Congo": {
+      "group": "K",
+      "tier": "C",
+      "rank": 37,
+      "odds": 750
+    },
+    "Uzbekistan": {
+      "group": "K",
+      "tier": "D",
+      "rank": 44,
+      "odds": 1500
+    },
+    "England": {
+      "group": "L",
+      "tier": "A",
+      "rank": 3,
+      "odds": 6
+    },
+    "Croatia": {
+      "group": "L",
+      "tier": "B",
+      "rank": 18,
+      "odds": 80
+    },
+    "Ghana": {
+      "group": "L",
+      "tier": "C",
+      "rank": 31,
+      "odds": 400
+    },
+    "Panama": {
+      "group": "L",
+      "tier": "D",
+      "rank": 41,
+      "odds": 1500
+    }
   },
   "leaderboard": [
     {

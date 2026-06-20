@@ -160,12 +160,31 @@ def parse_page(page: str, wikitext: str) -> list[dict]:
                 continue
             score_raw = tpl.get("score").value if tpl.has("score") else ""
             s1, s2 = extract_score(score_raw)
-            if s1 is None:
-                # match not played yet
-                continue
+            completed = s1 is not None
             date = None
             if tpl.has("date"):
                 date = parse_date(tpl.get("date").value)
+            time = None
+            if tpl.has("time"):
+                # strip wikilinks/templates from the kickoff-time string
+                time_str = str(tpl.get("time").value)
+                time_str = re.sub(r"<[^>]+>", "", time_str)               # strip HTML tags
+                time_str = re.sub(r"\[\[[^\]]*?\|([^\]]+)\]\]", r"\1", time_str)
+                time_str = re.sub(r"\[\[([^\]]+)\]\]", r"\1", time_str)
+                time_str = re.sub(r"\{\{[^}]+\}\}", "", time_str)
+                time_str = re.sub(r"&nbsp;", " ", time_str)
+                time_str = re.sub(r"\s+", " ", time_str).strip()
+                time = time_str if time_str else None
+            stadium = None
+            if tpl.has("stadium"):
+                stadium_str = str(tpl.get("stadium").value)
+                # extract first wikilink display value, fallback to plain text
+                m = re.search(r"\[\[([^\|\]]+)(?:\|([^\]]+))?\]\]", stadium_str)
+                if m:
+                    stadium = (m.group(2) or m.group(1)).strip()
+                else:
+                    stadium = re.sub(r"\{\{[^}]+\}\}", "", stadium_str).strip(" ,")
+                stadium = stadium or None
             pens1 = pens2 = None
             winner_pens = None
             # Penalty shootout: usually {{#invoke:football box|main|...|aet=yes|penaltyscore=4–3|penalties1=...|penalties2=...}}
@@ -183,6 +202,8 @@ def parse_page(page: str, wikitext: str) -> list[dict]:
             matches.append({
                 "stage": stage,
                 "date": date,
+                "time": time,
+                "stadium": stadium,
                 "team1": team1,
                 "team2": team2,
                 "score1": s1,
@@ -190,7 +211,7 @@ def parse_page(page: str, wikitext: str) -> list[dict]:
                 "pens1": pens1,
                 "pens2": pens2,
                 "winner_pens": winner_pens,
-                "completed": True,
+                "completed": completed,
             })
         except Exception as e:
             print(f"  WARN: failed to parse a template in {page}: {e}", file=sys.stderr)
@@ -215,10 +236,14 @@ def main() -> int:
         print(f"  → {len(page_matches)} match(es)")
         time.sleep(0.5)  # be polite to Wikipedia
 
+    completed = [m for m in all_matches if m["completed"]]
+    upcoming = [m for m in all_matches if not m["completed"]]
     payload = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "match_count": len(all_matches),
-        "matches": all_matches,
+        "match_count": len(completed),
+        "upcoming_count": len(upcoming),
+        "matches": completed,
+        "upcoming": upcoming,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
