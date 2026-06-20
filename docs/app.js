@@ -117,10 +117,8 @@ function render(data, results) {
   };
   const ownersLabel = (team) => {
     const list = owners[team] || [];
-    if (list.length === 0) return `<span class="owner none">unowned</span>`;
-    return list.map(o =>
-      `<span class="owner${o.bonus ? " bonus" : ""}">${o.player}${o.bonus ? " ⭐" : ""}</span>`
-    ).join("");
+    if (list.length === 0) return `<span class="owner-line muted">unowned</span>`;
+    return `<span class="owner-line">${list.map(o => o.player).join(", ")}</span>`;
   };
   const upcomingAll = [...(results.upcoming || [])].sort((a, b) =>
     ((a.date || "9999") + (a.time || "")).localeCompare((b.date || "9999") + (b.time || ""))
