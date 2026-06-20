@@ -66,7 +66,7 @@ function render(data, results) {
   players.innerHTML = data.leaderboard.map(row => {
     const teamRows = row.teams.map(t => `
       <tr>
-        <td><span class="flag">${flag(t.team)}</span><span class="tier tier-${t.tier}">T${t.tier}</span> ${t.team}</td>
+        <td><span class="flag">${flag(t.team)}</span><span class="tier tier-${t.tier}">T${t.tier}</span> ${t.team}${t.bonus ? ' <span class="bonus-tag">BONUS</span>' : ''}</td>
         <td class="num">${t.matches_played}</td>
         <td class="num">${t.goals_for}</td>
         <td class="num">${t.goals_against}</td>

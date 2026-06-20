@@ -190,6 +190,19 @@ tbody tr:last-child td { border-bottom: 0; }
 .tier-3 { background: var(--tier-3); }
 .tier-4 { background: var(--tier-4); }
 
+.bonus-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px 2px;
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  border-radius: 4px;
+  background: rgba(245,184,0,.15);
+  color: var(--gold-2);
+  border: 1px solid rgba(245,184,0,.35);
+}
+
 /* ---------- Recent results ---------- */
 #results {
   list-style: none;

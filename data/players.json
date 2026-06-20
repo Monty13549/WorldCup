@@ -4,99 +4,280 @@
     {
       "name": "Monty",
       "teams": [
-        {"team": "Netherlands",  "tier": 1},
-        {"team": "Switzerland",  "tier": 1},
-        {"team": "Egypt",        "tier": 2},
-        {"team": "DR Congo",     "tier": 3}
+        {
+          "team": "Netherlands",
+          "tier": 1
+        },
+        {
+          "team": "Switzerland",
+          "tier": 1
+        },
+        {
+          "team": "Egypt",
+          "tier": 2
+        },
+        {
+          "team": "DR Congo",
+          "tier": 3
+        },
+        {
+          "team": "Cape Verde",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Jess",
       "teams": [
-        {"team": "Belgium",      "tier": 1},
-        {"team": "Mexico",       "tier": 1},
-        {"team": "Algeria",      "tier": 3},
-        {"team": "South Africa", "tier": 4}
+        {
+          "team": "Belgium",
+          "tier": 1
+        },
+        {
+          "team": "Mexico",
+          "tier": 1
+        },
+        {
+          "team": "Algeria",
+          "tier": 3
+        },
+        {
+          "team": "South Africa",
+          "tier": 4
+        },
+        {
+          "team": "Ghana",
+          "tier": 3,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Jemima",
       "teams": [
-        {"team": "Argentina",    "tier": 1},
-        {"team": "Croatia",      "tier": 2},
-        {"team": "Norway",       "tier": 2},
-        {"team": "Tunisia",      "tier": 4}
+        {
+          "team": "Argentina",
+          "tier": 1
+        },
+        {
+          "team": "Croatia",
+          "tier": 2
+        },
+        {
+          "team": "Norway",
+          "tier": 2
+        },
+        {
+          "team": "Tunisia",
+          "tier": 4
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "tier": 3,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Alec",
       "teams": [
-        {"team": "England",      "tier": 1},
-        {"team": "Senegal",      "tier": 3},
-        {"team": "Austria",      "tier": 2},
-        {"team": "Scotland",     "tier": 3}
+        {
+          "team": "England",
+          "tier": 1
+        },
+        {
+          "team": "Senegal",
+          "tier": 3
+        },
+        {
+          "team": "Austria",
+          "tier": 2
+        },
+        {
+          "team": "Scotland",
+          "tier": 3
+        },
+        {
+          "team": "Ghana",
+          "tier": 3,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Henry",
       "teams": [
-        {"team": "France",       "tier": 1},
-        {"team": "Morocco",      "tier": 2},
-        {"team": "Panama",       "tier": 4},
-        {"team": "Uzbekistan",   "tier": 4}
+        {
+          "team": "France",
+          "tier": 1
+        },
+        {
+          "team": "Morocco",
+          "tier": 2
+        },
+        {
+          "team": "Panama",
+          "tier": 4
+        },
+        {
+          "team": "Uzbekistan",
+          "tier": 4
+        },
+        {
+          "team": "Jordan",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Jodie",
       "teams": [
-        {"team": "Germany",      "tier": 1},
-        {"team": "Japan",        "tier": 2},
-        {"team": "South Korea",  "tier": 3},
-        {"team": "Paraguay",     "tier": 3}
+        {
+          "team": "Germany",
+          "tier": 1
+        },
+        {
+          "team": "Japan",
+          "tier": 2
+        },
+        {
+          "team": "South Korea",
+          "tier": 3
+        },
+        {
+          "team": "Paraguay",
+          "tier": 3
+        },
+        {
+          "team": "Saudi Arabia",
+          "tier": 3,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Mum",
       "teams": [
-        {"team": "Spain",        "tier": 1},
-        {"team": "Colombia",     "tier": 2},
-        {"team": "Australia",    "tier": 4},
-        {"team": "Sweden",       "tier": 3}
+        {
+          "team": "Spain",
+          "tier": 1
+        },
+        {
+          "team": "Colombia",
+          "tier": 2
+        },
+        {
+          "team": "Australia",
+          "tier": 4
+        },
+        {
+          "team": "Sweden",
+          "tier": 3
+        },
+        {
+          "team": "Curacao",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Dad",
       "teams": [
-        {"team": "Brazil",       "tier": 1},
-        {"team": "Iran",         "tier": 3},
-        {"team": "Canada",       "tier": 2},
-        {"team": "Qatar",        "tier": 4}
+        {
+          "team": "Brazil",
+          "tier": 1
+        },
+        {
+          "team": "Iran",
+          "tier": 3
+        },
+        {
+          "team": "Canada",
+          "tier": 2
+        },
+        {
+          "team": "Qatar",
+          "tier": 4
+        },
+        {
+          "team": "Haiti",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Sam",
       "teams": [
-        {"team": "Portugal",     "tier": 1},
-        {"team": "Uruguay",      "tier": 2},
-        {"team": "Ivory Coast",  "tier": 3},
-        {"team": "Czechia",      "tier": 2}
+        {
+          "team": "Portugal",
+          "tier": 1
+        },
+        {
+          "team": "Uruguay",
+          "tier": 2
+        },
+        {
+          "team": "Ivory Coast",
+          "tier": 3
+        },
+        {
+          "team": "Czechia",
+          "tier": 2
+        },
+        {
+          "team": "New Zealand",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     },
     {
       "name": "Meg",
       "teams": [
-        {"team": "USA",          "tier": 1},
-        {"team": "Turkey",       "tier": 2},
-        {"team": "Ecuador",      "tier": 2},
-        {"team": "Iraq",         "tier": 4}
+        {
+          "team": "USA",
+          "tier": 1
+        },
+        {
+          "team": "Turkey",
+          "tier": 2
+        },
+        {
+          "team": "Ecuador",
+          "tier": 2
+        },
+        {
+          "team": "Iraq",
+          "tier": 4
+        },
+        {
+          "team": "Curacao",
+          "tier": 4,
+          "bonus": true
+        }
       ]
     }
   ],
   "team_aliases": {
-    "Turkey": ["Türkiye", "Turkiye"],
-    "USA": ["United States"],
-    "South Korea": ["Korea Republic"],
-    "Iran": ["IR Iran"],
-    "Czechia": ["Czech Republic"]
+    "Turkey": [
+      "Türkiye",
+      "Turkiye"
+    ],
+    "USA": [
+      "United States"
+    ],
+    "South Korea": [
+      "Korea Republic"
+    ],
+    "Iran": [
+      "IR Iran"
+    ],
+    "Czechia": [
+      "Czech Republic"
+    ]
   }
 }

@@ -87,6 +87,7 @@ def main() -> int:
             teams.append({
                 "team": pick["team"],
                 "tier": int(tier),
+                "bonus": bool(pick.get("bonus", False)),
                 "matches_played": stats["matches_played"],
                 "goals_for": stats["goals_for"],
                 "goals_against": stats["goals_against"],
