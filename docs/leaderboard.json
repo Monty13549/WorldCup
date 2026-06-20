@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T10:49:08+00:00",
+  "updated_at": "2026-06-20T10:51:27+00:00",
   "results_updated_at": "2026-06-20T10:49:08+00:00",
   "match_count": 32,
   "upcoming_count": 40,
@@ -319,6 +319,304 @@
       "rank": 41,
       "odds": 1500
     }
+  },
+  "team_owners": {
+    "Netherlands": [
+      {
+        "player": "Monty",
+        "bonus": false
+      }
+    ],
+    "Switzerland": [
+      {
+        "player": "Monty",
+        "bonus": false
+      }
+    ],
+    "Egypt": [
+      {
+        "player": "Monty",
+        "bonus": false
+      }
+    ],
+    "DR Congo": [
+      {
+        "player": "Monty",
+        "bonus": false
+      }
+    ],
+    "Cape Verde": [
+      {
+        "player": "Monty",
+        "bonus": true
+      }
+    ],
+    "Belgium": [
+      {
+        "player": "Jess",
+        "bonus": false
+      }
+    ],
+    "Mexico": [
+      {
+        "player": "Jess",
+        "bonus": false
+      }
+    ],
+    "Algeria": [
+      {
+        "player": "Jess",
+        "bonus": false
+      }
+    ],
+    "South Africa": [
+      {
+        "player": "Jess",
+        "bonus": false
+      }
+    ],
+    "Ghana": [
+      {
+        "player": "Jess",
+        "bonus": true
+      },
+      {
+        "player": "Alec",
+        "bonus": true
+      }
+    ],
+    "Argentina": [
+      {
+        "player": "Jemima",
+        "bonus": false
+      }
+    ],
+    "Croatia": [
+      {
+        "player": "Jemima",
+        "bonus": false
+      }
+    ],
+    "Norway": [
+      {
+        "player": "Jemima",
+        "bonus": false
+      }
+    ],
+    "Tunisia": [
+      {
+        "player": "Jemima",
+        "bonus": false
+      }
+    ],
+    "Bosnia and Herzegovina": [
+      {
+        "player": "Jemima",
+        "bonus": true
+      }
+    ],
+    "England": [
+      {
+        "player": "Alec",
+        "bonus": false
+      }
+    ],
+    "Senegal": [
+      {
+        "player": "Alec",
+        "bonus": false
+      }
+    ],
+    "Austria": [
+      {
+        "player": "Alec",
+        "bonus": false
+      }
+    ],
+    "Scotland": [
+      {
+        "player": "Alec",
+        "bonus": false
+      }
+    ],
+    "France": [
+      {
+        "player": "Henry",
+        "bonus": false
+      }
+    ],
+    "Morocco": [
+      {
+        "player": "Henry",
+        "bonus": false
+      }
+    ],
+    "Panama": [
+      {
+        "player": "Henry",
+        "bonus": false
+      }
+    ],
+    "Uzbekistan": [
+      {
+        "player": "Henry",
+        "bonus": false
+      }
+    ],
+    "Jordan": [
+      {
+        "player": "Henry",
+        "bonus": true
+      }
+    ],
+    "Germany": [
+      {
+        "player": "Jodie",
+        "bonus": false
+      }
+    ],
+    "Japan": [
+      {
+        "player": "Jodie",
+        "bonus": false
+      }
+    ],
+    "South Korea": [
+      {
+        "player": "Jodie",
+        "bonus": false
+      }
+    ],
+    "Paraguay": [
+      {
+        "player": "Jodie",
+        "bonus": false
+      }
+    ],
+    "Saudi Arabia": [
+      {
+        "player": "Jodie",
+        "bonus": true
+      }
+    ],
+    "Spain": [
+      {
+        "player": "Mum",
+        "bonus": false
+      }
+    ],
+    "Colombia": [
+      {
+        "player": "Mum",
+        "bonus": false
+      }
+    ],
+    "Australia": [
+      {
+        "player": "Mum",
+        "bonus": false
+      }
+    ],
+    "Sweden": [
+      {
+        "player": "Mum",
+        "bonus": false
+      }
+    ],
+    "Curacao": [
+      {
+        "player": "Mum",
+        "bonus": true
+      },
+      {
+        "player": "Meg",
+        "bonus": true
+      }
+    ],
+    "Brazil": [
+      {
+        "player": "Dad",
+        "bonus": false
+      }
+    ],
+    "Iran": [
+      {
+        "player": "Dad",
+        "bonus": false
+      }
+    ],
+    "Canada": [
+      {
+        "player": "Dad",
+        "bonus": false
+      }
+    ],
+    "Qatar": [
+      {
+        "player": "Dad",
+        "bonus": false
+      }
+    ],
+    "Haiti": [
+      {
+        "player": "Dad",
+        "bonus": true
+      }
+    ],
+    "Portugal": [
+      {
+        "player": "Sam",
+        "bonus": false
+      }
+    ],
+    "Uruguay": [
+      {
+        "player": "Sam",
+        "bonus": false
+      }
+    ],
+    "Ivory Coast": [
+      {
+        "player": "Sam",
+        "bonus": false
+      }
+    ],
+    "Czechia": [
+      {
+        "player": "Sam",
+        "bonus": false
+      }
+    ],
+    "New Zealand": [
+      {
+        "player": "Sam",
+        "bonus": true
+      }
+    ],
+    "USA": [
+      {
+        "player": "Meg",
+        "bonus": false
+      }
+    ],
+    "Turkey": [
+      {
+        "player": "Meg",
+        "bonus": false
+      }
+    ],
+    "Ecuador": [
+      {
+        "player": "Meg",
+        "bonus": false
+      }
+    ],
+    "Iraq": [
+      {
+        "player": "Meg",
+        "bonus": false
+      }
+    ]
   },
   "leaderboard": [
     {

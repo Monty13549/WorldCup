@@ -109,6 +109,14 @@ def main() -> int:
     teams_doc = json.loads(TEAMS.read_text()) if TEAMS.exists() else {"teams": {}}
     teams_meta = teams_doc.get("teams", {})
 
+    team_owners: dict[str, list[dict]] = {}
+    for player in players_doc["players"]:
+        for pick in player["teams"]:
+            team_owners.setdefault(pick["team"], []).append({
+                "player": player["name"],
+                "bonus": bool(pick.get("bonus", False)),
+            })
+
     payload = {
         "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "results_updated_at": results.get("updated_at"),
@@ -116,6 +124,7 @@ def main() -> int:
         "upcoming_count": results.get("upcoming_count", 0),
         "scoring": scoring,
         "teams": teams_meta,
+        "team_owners": team_owners,
         "leaderboard": leaderboard,
     }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")

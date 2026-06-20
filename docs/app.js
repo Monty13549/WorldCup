@@ -110,9 +110,17 @@ function render(data, results) {
   const upUl = document.getElementById("upcoming");
   const upMeta = document.getElementById("upcoming-meta");
   const teamsMeta = data.teams || {};
+  const owners = data.team_owners || {};
   const oddsLabel = (team) => {
     const o = teamsMeta[team]?.odds;
     return o != null ? `<span class="odds">${o}/1</span>` : "";
+  };
+  const ownersLabel = (team) => {
+    const list = owners[team] || [];
+    if (list.length === 0) return `<span class="owner none">unowned</span>`;
+    return list.map(o =>
+      `<span class="owner${o.bonus ? " bonus" : ""}">${o.player}${o.bonus ? " ⭐" : ""}</span>`
+    ).join("");
   };
   const upcomingAll = [...(results.upcoming || [])].sort((a, b) =>
     ((a.date || "9999") + (a.time || "")).localeCompare((b.date || "9999") + (b.time || ""))
@@ -124,9 +132,15 @@ function render(data, results) {
     : next.map(m => `
       <li class="upcoming-row">
         <span class="date">${fmtDate(m.date)}${m.time ? " · " + m.time : ""}</span>
-        <span class="t1">${m.team1} <span class="flag">${flag(m.team1)}</span> ${oddsLabel(m.team1)}</span>
+        <span class="t1">
+          <span class="team-name">${m.team1} <span class="flag">${flag(m.team1)}</span> ${oddsLabel(m.team1)}</span>
+          <span class="owners">${ownersLabel(m.team1)}</span>
+        </span>
         <span class="vs">vs</span>
-        <span class="t2"><span class="flag">${flag(m.team2)}</span> ${m.team2} ${oddsLabel(m.team2)}</span>
+        <span class="t2">
+          <span class="team-name"><span class="flag">${flag(m.team2)}</span> ${m.team2} ${oddsLabel(m.team2)}</span>
+          <span class="owners">${ownersLabel(m.team2)}</span>
+        </span>
         ${m.stadium ? `<span class="stadium">@ ${m.stadium}</span>` : ""}
       </li>`).join("");
 
