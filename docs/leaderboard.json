@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-21T20:12:35+00:00",
-  "results_updated_at": "2026-06-21T20:12:34+00:00",
-  "match_count": 36,
-  "upcoming_count": 35,
+  "updated_at": "2026-06-21T21:54:50+00:00",
+  "results_updated_at": "2026-06-21T21:54:50+00:00",
+  "match_count": 37,
+  "upcoming_count": 34,
   "scoring": {
     "tiers": {
       "1": {
@@ -700,7 +700,7 @@
           "team": "Iran",
           "tier": 3,
           "bonus": false,
-          "matches_played": 1,
+          "matches_played": 2,
           "goals_for": 2,
           "goals_against": 2,
           "pen_wins": 0,
@@ -937,7 +937,7 @@
           "team": "Belgium",
           "tier": 1,
           "bonus": false,
-          "matches_played": 1,
+          "matches_played": 2,
           "goals_for": 1,
           "goals_against": 1,
           "pen_wins": 0,

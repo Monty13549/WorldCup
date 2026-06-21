@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T20:12:34+00:00",
-  "match_count": 36,
-  "upcoming_count": 35,
+  "updated_at": "2026-06-21T21:54:50+00:00",
+  "match_count": 37,
+  "upcoming_count": 34,
   "matches": [
     {
       "stage": "group_A",
@@ -354,6 +354,20 @@
       "completed": true
     },
     {
+      "stage": "group_G",
+      "date": "2026-06-21",
+      "time": "12:00 p.m. UTC−7",
+      "stadium": "SoFi Stadium",
+      "team1": "Belgium",
+      "team2": "Iran",
+      "score1": 0,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_H",
       "date": "2026-06-15",
       "time": "12:00 p.m. UTC−4",
@@ -670,20 +684,6 @@
       "stadium": "Arrowhead Stadium",
       "team1": "Tunisia",
       "team2": "Netherlands",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_G",
-      "date": "2026-06-21",
-      "time": "12:00 p.m. UTC−7",
-      "stadium": "SoFi Stadium",
-      "team1": "Belgium",
-      "team2": "Iran",
       "score1": null,
       "score2": null,
       "pens1": null,
