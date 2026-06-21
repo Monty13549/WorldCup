@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T23:45:18+00:00",
-  "match_count": 34,
-  "upcoming_count": 38,
+  "updated_at": "2026-06-21T04:12:40+00:00",
+  "match_count": 35,
+  "upcoming_count": 37,
   "matches": [
     {
       "stage": "group_A",
@@ -264,6 +264,20 @@
       "team2": "Ivory Coast",
       "score1": 2,
       "score2": 1,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_E",
+      "date": "2026-06-20",
+      "time": "7:00 p.m. UTC−5",
+      "stadium": "Arrowhead Stadium",
+      "team1": "Ecuador",
+      "team2": "Curacao",
+      "score1": 0,
+      "score2": 0,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
@@ -586,20 +600,6 @@
       "stadium": "Levi's Stadium",
       "team1": "Paraguay",
       "team2": "Australia",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_E",
-      "date": "2026-06-20",
-      "time": "7:00 p.m. UTC−5",
-      "stadium": "Arrowhead Stadium",
-      "team1": "Ecuador",
-      "team2": "Curacao",
       "score1": null,
       "score2": null,
       "pens1": null,

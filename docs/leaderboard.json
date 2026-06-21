@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-20T23:45:18+00:00",
-  "results_updated_at": "2026-06-20T23:45:18+00:00",
-  "match_count": 34,
-  "upcoming_count": 38,
+  "updated_at": "2026-06-21T04:12:40+00:00",
+  "results_updated_at": "2026-06-21T04:12:40+00:00",
+  "match_count": 35,
+  "upcoming_count": 37,
   "scoring": {
     "tiers": {
       "1": {
@@ -671,7 +671,7 @@
           "team": "Curacao",
           "tier": 4,
           "bonus": true,
-          "matches_played": 1,
+          "matches_played": 2,
           "goals_for": 1,
           "goals_against": 7,
           "pen_wins": 0,
@@ -1207,7 +1207,7 @@
           "team": "Ecuador",
           "tier": 2,
           "bonus": false,
-          "matches_played": 1,
+          "matches_played": 2,
           "goals_for": 0,
           "goals_against": 1,
           "pen_wins": 0,
@@ -1229,7 +1229,7 @@
           "team": "Curacao",
           "tier": 4,
           "bonus": true,
-          "matches_played": 1,
+          "matches_played": 2,
           "goals_for": 1,
           "goals_against": 7,
           "pen_wins": 0,
