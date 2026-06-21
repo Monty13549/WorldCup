@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T11:45:59+00:00",
-  "match_count": 35,
-  "upcoming_count": 36,
+  "updated_at": "2026-06-21T18:05:46+00:00",
+  "match_count": 36,
+  "upcoming_count": 35,
   "matches": [
     {
       "stage": "group_A",
@@ -382,6 +382,20 @@
       "completed": true
     },
     {
+      "stage": "group_H",
+      "date": "2026-06-21",
+      "time": "12:00 p.m. UTC−4",
+      "stadium": "Mercedes-Benz Stadium",
+      "team1": "Spain",
+      "team2": "Saudi Arabia",
+      "score1": 4,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_I",
       "date": "2026-06-16",
       "time": "3:00 p.m. UTC−4",
@@ -712,20 +726,6 @@
       "stadium": "BC Place",
       "team1": "New Zealand",
       "team2": "Belgium",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_H",
-      "date": "2026-06-21",
-      "time": "12:00 p.m. UTC−4",
-      "stadium": "Mercedes-Benz Stadium",
-      "team1": "Spain",
-      "team2": "Saudi Arabia",
       "score1": null,
       "score2": null,
       "pens1": null,
