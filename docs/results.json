@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T04:12:40+00:00",
+  "updated_at": "2026-06-21T11:45:59+00:00",
   "match_count": 35,
-  "upcoming_count": 37,
+  "upcoming_count": 36,
   "matches": [
     {
       "stage": "group_A",
@@ -628,20 +628,6 @@
       "stadium": "MetLife Stadium",
       "team1": "Ecuador",
       "team2": "Germany",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_F",
-      "date": "2026-06-20",
-      "time": "10:00 p.m. UTC−6",
-      "stadium": "Estadio BBVA",
-      "team1": "Tunisia",
-      "team2": "Japan",
       "score1": null,
       "score2": null,
       "pens1": null,
