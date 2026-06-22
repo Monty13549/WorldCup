@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T23:12:47+00:00",
-  "match_count": 37,
-  "upcoming_count": 34,
+  "updated_at": "2026-06-22T02:02:11+00:00",
+  "match_count": 38,
+  "upcoming_count": 33,
   "matches": [
     {
       "stage": "group_A",
@@ -410,6 +410,20 @@
       "completed": true
     },
     {
+      "stage": "group_H",
+      "date": "2026-06-21",
+      "time": "6:00 p.m. UTC−4",
+      "stadium": "Hard Rock Stadium",
+      "team1": "Uruguay",
+      "team2": "Cape Verde",
+      "score1": 2,
+      "score2": 2,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_I",
       "date": "2026-06-16",
       "time": "3:00 p.m. UTC−4",
@@ -726,20 +740,6 @@
       "stadium": "BC Place",
       "team1": "New Zealand",
       "team2": "Belgium",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_H",
-      "date": "2026-06-21",
-      "time": "6:00 p.m. UTC−4",
-      "stadium": "Hard Rock Stadium",
-      "team1": "Uruguay",
-      "team2": "Cape Verde",
       "score1": null,
       "score2": null,
       "pens1": null,
