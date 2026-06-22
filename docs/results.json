@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-22T02:02:11+00:00",
-  "match_count": 38,
-  "upcoming_count": 33,
+  "updated_at": "2026-06-22T08:16:08+00:00",
+  "match_count": 39,
+  "upcoming_count": 32,
   "matches": [
     {
       "stage": "group_A",
@@ -368,6 +368,20 @@
       "completed": true
     },
     {
+      "stage": "group_G",
+      "date": "2026-06-21",
+      "time": "6:00 p.m. UTC−7",
+      "stadium": "BC Place",
+      "team1": "New Zealand",
+      "team2": "Egypt",
+      "score1": 1,
+      "score2": 3,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_H",
       "date": "2026-06-15",
       "time": "12:00 p.m. UTC−4",
@@ -698,20 +712,6 @@
       "stadium": "Arrowhead Stadium",
       "team1": "Tunisia",
       "team2": "Netherlands",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_G",
-      "date": "2026-06-21",
-      "time": "6:00 p.m. UTC−7",
-      "stadium": "BC Place",
-      "team1": "New Zealand",
-      "team2": "Egypt",
       "score1": null,
       "score2": null,
       "pens1": null,
