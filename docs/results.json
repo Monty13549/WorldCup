@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-22T08:16:08+00:00",
-  "match_count": 39,
-  "upcoming_count": 32,
+  "updated_at": "2026-06-22T20:15:15+00:00",
+  "match_count": 40,
+  "upcoming_count": 31,
   "matches": [
     {
       "stage": "group_A",
@@ -494,6 +494,20 @@
       "completed": true
     },
     {
+      "stage": "group_J",
+      "date": "2026-06-22",
+      "time": "12:00 p.m. UTC−5",
+      "stadium": "AT&T Stadium",
+      "team1": "Argentina",
+      "team2": "Austria",
+      "score1": 2,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_K",
       "date": "2026-06-17",
       "time": "12:00 p.m. UTC−5",
@@ -824,20 +838,6 @@
       "stadium": "BMO Field",
       "team1": "Senegal",
       "team2": "Iraq",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_J",
-      "date": "2026-06-22",
-      "time": "12:00 p.m. UTC−5",
-      "stadium": "AT&T Stadium",
-      "team1": "Argentina",
-      "team2": "Austria",
       "score1": null,
       "score2": null,
       "pens1": null,
