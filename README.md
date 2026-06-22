@@ -70,7 +70,13 @@ gh repo create worldcup-2026 --public --source=. --push
 gh workflow run update.yml
 ```
 
-Site will be live at `https://<your-username>.github.io/worldcup-2026/` within ~1 minute. The cron runs every 30 min during the tournament.
+Live site: **https://monty13549.github.io/WorldCup/**
+
+The cron runs every 30 min during the tournament. To force an immediate refresh:
+
+```bash
+gh workflow run update.yml --repo Monty13549/WorldCup
+```
 
 ## Editing player picks
 
