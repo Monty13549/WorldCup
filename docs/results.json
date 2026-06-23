@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T17:22:00+00:00",
-  "match_count": 43,
-  "upcoming_count": 28,
+  "updated_at": "2026-06-23T22:06:06+00:00",
+  "match_count": 45,
+  "upcoming_count": 26,
   "matches": [
     {
       "stage": "group_A",
@@ -578,6 +578,20 @@
       "completed": true
     },
     {
+      "stage": "group_K",
+      "date": "2026-06-23",
+      "time": "12:00 p.m. UTC−5",
+      "stadium": "NRG Stadium",
+      "team1": "Portugal",
+      "team2": "Uzbekistan",
+      "score1": 5,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_L",
       "date": "2026-06-17",
       "time": "3:00 p.m. UTC−5",
@@ -599,6 +613,20 @@
       "team1": "Ghana",
       "team2": "Panama",
       "score1": 1,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_L",
+      "date": "2026-06-23",
+      "time": "4:00 p.m. UTC−4",
+      "stadium": "Gillette Stadium",
+      "team1": "England",
+      "team2": "Ghana",
+      "score1": 0,
       "score2": 0,
       "pens1": null,
       "pens2": null,
@@ -890,20 +918,6 @@
     {
       "stage": "group_K",
       "date": "2026-06-23",
-      "time": "12:00 p.m. UTC−5",
-      "stadium": "NRG Stadium",
-      "team1": "Portugal",
-      "team2": "Uzbekistan",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_K",
-      "date": "2026-06-23",
       "time": "8:00 p.m. UTC−6",
       "stadium": "Estadio Akron",
       "team1": "Colombia",
@@ -936,20 +950,6 @@
       "stadium": "Mercedes-Benz Stadium",
       "team1": "DR Congo",
       "team2": "Uzbekistan",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_L",
-      "date": "2026-06-23",
-      "time": "4:00 p.m. UTC−4",
-      "stadium": "Gillette Stadium",
-      "team1": "England",
-      "team2": "Ghana",
       "score1": null,
       "score2": null,
       "pens1": null,
