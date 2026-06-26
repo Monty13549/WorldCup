@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T17:22:22+00:00",
-  "match_count": 59,
-  "upcoming_count": 12,
+  "updated_at": "2026-06-26T21:51:35+00:00",
+  "match_count": 61,
+  "upcoming_count": 10,
   "matches": [
     {
       "stage": "group_A",
@@ -662,6 +662,34 @@
       "completed": true
     },
     {
+      "stage": "group_I",
+      "date": "2026-06-26",
+      "time": "3:00 p.m. UTC−4",
+      "stadium": "Gillette Stadium",
+      "team1": "Norway",
+      "team2": "France",
+      "score1": 1,
+      "score2": 4,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_I",
+      "date": "2026-06-26",
+      "time": "3:00 p.m. UTC−4",
+      "stadium": "BMO Field",
+      "team1": "Senegal",
+      "team2": "Iraq",
+      "score1": 5,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_J",
       "date": "2026-06-16",
       "time": "8:00 p.m. UTC−5",
@@ -880,34 +908,6 @@
       "stadium": "Estadio Akron",
       "team1": "Uruguay",
       "team2": "Spain",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_I",
-      "date": "2026-06-26",
-      "time": "3:00 p.m. UTC−4",
-      "stadium": "Gillette Stadium",
-      "team1": "Norway",
-      "team2": "France",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_I",
-      "date": "2026-06-26",
-      "time": "3:00 p.m. UTC−4",
-      "stadium": "BMO Field",
-      "team1": "Senegal",
-      "team2": "Iraq",
       "score1": null,
       "score2": null,
       "pens1": null,
