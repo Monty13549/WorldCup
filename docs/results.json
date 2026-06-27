@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-26T21:51:35+00:00",
-  "match_count": 61,
-  "upcoming_count": 10,
+  "updated_at": "2026-06-27T08:11:31+00:00",
+  "match_count": 65,
+  "upcoming_count": 6,
   "matches": [
     {
       "stage": "group_A",
@@ -550,6 +550,34 @@
       "completed": true
     },
     {
+      "stage": "group_G",
+      "date": "2026-06-26",
+      "time": "8:00 p.m. UTC−7",
+      "stadium": "Lumen Field",
+      "team1": "Egypt",
+      "team2": "Iran",
+      "score1": 1,
+      "score2": 1,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_G",
+      "date": "2026-06-26",
+      "time": "8:00 p.m. UTC−7",
+      "stadium": "BC Place",
+      "team1": "New Zealand",
+      "team2": "Belgium",
+      "score1": 1,
+      "score2": 5,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
       "stage": "group_H",
       "date": "2026-06-15",
       "time": "12:00 p.m. UTC−4",
@@ -600,6 +628,34 @@
       "team2": "Cape Verde",
       "score1": 2,
       "score2": 2,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_H",
+      "date": "2026-06-26",
+      "time": "7:00 p.m. UTC−5",
+      "stadium": "NRG Stadium",
+      "team1": "Cape Verde",
+      "team2": "Saudi Arabia",
+      "score1": 0,
+      "score2": 0,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_H",
+      "date": "2026-06-26",
+      "time": "6:00 p.m. UTC−6",
+      "stadium": "Estadio Akron",
+      "team1": "Uruguay",
+      "team2": "Spain",
+      "score1": 0,
+      "score2": 1,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
@@ -859,62 +915,6 @@
     }
   ],
   "upcoming": [
-    {
-      "stage": "group_G",
-      "date": "2026-06-26",
-      "time": "8:00 p.m. UTC−7",
-      "stadium": "Lumen Field",
-      "team1": "Egypt",
-      "team2": "Iran",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_G",
-      "date": "2026-06-26",
-      "time": "8:00 p.m. UTC−7",
-      "stadium": "BC Place",
-      "team1": "New Zealand",
-      "team2": "Belgium",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_H",
-      "date": "2026-06-26",
-      "time": "7:00 p.m. UTC−5",
-      "stadium": "NRG Stadium",
-      "team1": "Cape Verde",
-      "team2": "Saudi Arabia",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
-    {
-      "stage": "group_H",
-      "date": "2026-06-26",
-      "time": "6:00 p.m. UTC−6",
-      "stadium": "Estadio Akron",
-      "team1": "Uruguay",
-      "team2": "Spain",
-      "score1": null,
-      "score2": null,
-      "pens1": null,
-      "pens2": null,
-      "winner_pens": null,
-      "completed": false
-    },
     {
       "stage": "group_J",
       "date": "2026-06-27",
