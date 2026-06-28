@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T14:59:48+00:00",
+  "updated_at": "2026-06-28T18:56:35+00:00",
   "players": [
     "Monty",
     "Jess",
@@ -152,14 +152,14 @@
       "date": "2026-06-20",
       "scores": {
         "Mum": 12,
+        "Jodie": 8,
         "Dad": 6,
         "Henry": 1,
         "Alec": 0,
-        "Jodie": 0,
         "Sam": -1,
         "Jess": -2,
-        "Jemima": -5,
         "Monty": -8,
+        "Jemima": -9,
         "Meg": -13
       }
     },
@@ -171,10 +171,10 @@
         "Monty": 1,
         "Henry": 1,
         "Alec": 0,
+        "Jodie": 0,
         "Jess": -2,
         "Sam": -2,
-        "Jemima": -5,
-        "Jodie": -8,
+        "Jemima": -9,
         "Meg": -13
       }
     },
@@ -186,10 +186,10 @@
         "Dad": 6,
         "Jess": 2,
         "Monty": 1,
+        "Jodie": 0,
         "Sam": -2,
-        "Jemima": -3,
         "Alec": -6,
-        "Jodie": -8,
+        "Jemima": -7,
         "Meg": -16
       }
     },
@@ -201,10 +201,10 @@
         "Sam": 3,
         "Jess": 2,
         "Henry": 0,
+        "Jodie": 0,
         "Monty": -1,
-        "Jemima": -1,
+        "Jemima": -5,
         "Alec": -6,
-        "Jodie": -8,
         "Meg": -16
       }
     },
@@ -214,11 +214,11 @@
         "Mum": 18,
         "Dad": 10,
         "Jess": 9,
-        "Jemima": 6,
+        "Jemima": 2,
         "Henry": 2,
+        "Jodie": -2,
         "Monty": -3,
         "Sam": -6,
-        "Jodie": -10,
         "Alec": -12,
         "Meg": -16
       }
@@ -229,12 +229,12 @@
         "Mum": 17,
         "Dad": 10,
         "Jess": 9,
-        "Jemima": 7,
+        "Jemima": 3,
         "Henry": 2,
         "Sam": 0,
         "Monty": -4,
+        "Jodie": -10,
         "Alec": -12,
-        "Jodie": -18,
         "Meg": -27
       }
     },
@@ -246,10 +246,10 @@
         "Jess": 10,
         "Alec": 3,
         "Henry": 2,
-        "Jemima": -3,
         "Sam": -4,
         "Monty": -5,
-        "Jodie": -18,
+        "Jemima": -7,
+        "Jodie": -10,
         "Meg": -32
       }
     },
@@ -262,9 +262,9 @@
         "Monty": 2,
         "Henry": 2,
         "Alec": 1,
-        "Jemima": -3,
         "Sam": -4,
-        "Jodie": -18,
+        "Jemima": -7,
+        "Jodie": -10,
         "Meg": -32
       }
     }

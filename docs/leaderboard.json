@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-28T14:59:48+00:00",
-  "results_updated_at": "2026-06-28T14:59:48+00:00",
-  "match_count": 71,
+  "updated_at": "2026-06-28T18:56:35+00:00",
+  "results_updated_at": "2026-06-28T18:56:34+00:00",
+  "match_count": 72,
   "upcoming_count": 0,
   "scoring": {
     "tiers": {
@@ -992,68 +992,6 @@
       "rank": 6
     },
     {
-      "player": "Jemima",
-      "total": -3,
-      "teams": [
-        {
-          "team": "Argentina",
-          "tier": 1,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 8,
-          "goals_against": 1,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 4
-        },
-        {
-          "team": "Croatia",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 5,
-          "goals_against": 5,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -5
-        },
-        {
-          "team": "Norway",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 8,
-          "goals_against": 7,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -5
-        },
-        {
-          "team": "Tunisia",
-          "tier": 4,
-          "bonus": false,
-          "matches_played": 2,
-          "goals_for": 2,
-          "goals_against": 8,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 0
-        },
-        {
-          "team": "Bosnia and Herzegovina",
-          "tier": 3,
-          "bonus": true,
-          "matches_played": 3,
-          "goals_for": 5,
-          "goals_against": 6,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 3
-        }
-      ],
-      "rank": 7
-    },
-    {
       "player": "Sam",
       "total": -4,
       "teams": [
@@ -1113,11 +1051,73 @@
           "points": 6
         }
       ],
+      "rank": 7
+    },
+    {
+      "player": "Jemima",
+      "total": -7,
+      "teams": [
+        {
+          "team": "Argentina",
+          "tier": 1,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 8,
+          "goals_against": 1,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 4
+        },
+        {
+          "team": "Croatia",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 5,
+          "goals_against": 5,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -5
+        },
+        {
+          "team": "Norway",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 8,
+          "goals_against": 7,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -5
+        },
+        {
+          "team": "Tunisia",
+          "tier": 4,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 2,
+          "goals_against": 12,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -4
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "tier": 3,
+          "bonus": true,
+          "matches_played": 3,
+          "goals_for": 5,
+          "goals_against": 6,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 3
+        }
+      ],
       "rank": 8
     },
     {
       "player": "Jodie",
-      "total": -18,
+      "total": -10,
       "teams": [
         {
           "team": "Germany",
@@ -1134,12 +1134,12 @@
           "team": "Japan",
           "tier": 2,
           "bonus": false,
-          "matches_played": 2,
-          "goals_for": 3,
+          "matches_played": 3,
+          "goals_for": 7,
           "goals_against": 3,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -3
+          "points": 5
         },
         {
           "team": "South Korea",

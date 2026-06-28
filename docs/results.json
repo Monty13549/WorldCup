@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T14:59:48+00:00",
-  "match_count": 71,
+  "updated_at": "2026-06-28T18:56:34+00:00",
+  "match_count": 72,
   "upcoming_count": 0,
   "matches": [
     {
@@ -460,6 +460,20 @@
       "team2": "Sweden",
       "score1": 5,
       "score2": 1,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    },
+    {
+      "stage": "group_F",
+      "date": "2026-06-20",
+      "time": "10:00 p.m. UTC−6",
+      "stadium": "Estadio BBVA",
+      "team1": "Tunisia",
+      "team2": "Japan",
+      "score1": 0,
+      "score2": 4,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
