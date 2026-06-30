@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T21:10:21+00:00",
+  "updated_at": "2026-06-30T10:37:27+00:00",
   "match_count": 72,
-  "upcoming_count": 0,
+  "upcoming_count": 1,
   "matches": [
     {
       "stage": "group_A",
@@ -1012,5 +1012,20 @@
       "completed": true
     }
   ],
-  "upcoming": []
+  "upcoming": [
+    {
+      "stage": "knockout",
+      "date": "2026-07-04",
+      "time": "12:00 p.m. UTC−5",
+      "stadium": "NRG Stadium",
+      "team1": "Canada",
+      "team2": "Morocco",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    }
+  ]
 }
