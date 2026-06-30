@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T17:30:50+00:00",
+  "updated_at": "2026-06-30T22:53:26+00:00",
   "match_count": 72,
-  "upcoming_count": 1,
+  "upcoming_count": 3,
   "matches": [
     {
       "stage": "group_A",
@@ -1020,6 +1020,34 @@
       "stadium": "NRG Stadium",
       "team1": "Canada",
       "team2": "Morocco",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-04",
+      "time": "5:00 p.m. UTC−4",
+      "stadium": "Lincoln Financial Field",
+      "team1": "Paraguay",
+      "team2": "France",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-05",
+      "time": "4:00 p.m. UTC−4",
+      "stadium": "MetLife Stadium",
+      "team1": "Brazil",
+      "team2": "Norway",
       "score1": null,
       "score2": null,
       "pens1": null,
