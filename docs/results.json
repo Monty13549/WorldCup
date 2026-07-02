@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T18:23:29+00:00",
+  "updated_at": "2026-07-02T10:16:27+00:00",
   "match_count": 72,
-  "upcoming_count": 4,
+  "upcoming_count": 5,
   "matches": [
     {
       "stage": "group_A",
@@ -1058,10 +1058,24 @@
     {
       "stage": "knockout",
       "date": "2026-07-05",
-      "time": "7:00 p.m. UTC−6",
+      "time": "6:00 p.m. UTC−6",
       "stadium": "Estadio Azteca",
       "team1": "Mexico",
       "team2": "England",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-06",
+      "time": "5:00 p.m. UTC−7",
+      "stadium": "Lumen Field",
+      "team1": "USA",
+      "team2": "Belgium",
       "score1": null,
       "score2": null,
       "pens1": null,
