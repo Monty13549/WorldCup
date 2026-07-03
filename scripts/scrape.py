@@ -24,6 +24,7 @@ USER_AGENT = "WorldCupSweepstake/1.0 (https://github.com/; family sweepstake tra
 
 GROUP_PAGES = [f"2026_FIFA_World_Cup_Group_{c}" for c in "ABCDEFGHIJKL"]
 KNOCKOUT_PAGES = [
+    "2026_FIFA_World_Cup_round_of_32",
     "2026_FIFA_World_Cup_knockout_stage",
     "2026_FIFA_World_Cup_final",
 ]
@@ -123,6 +124,8 @@ def parse_date(value) -> str | None:
 def stage_for_page(page: str) -> str:
     if "Group_" in page:
         return f"group_{page[-1]}"
+    if "round_of_32" in page:
+        return "round_of_32"
     if "knockout" in page:
         return "knockout"  # refined per-template below
     if "final" in page:
