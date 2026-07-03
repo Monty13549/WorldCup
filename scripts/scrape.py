@@ -49,20 +49,32 @@ SCORE_RE = re.compile(r"(\d+)\s*[–—\-]\s*(\d+)")
 
 
 def fetch_wikitext(page: str) -> str | None:
-    r = requests.get(
-        WIKI_API,
-        params={
-            "action": "parse",
-            "page": page,
-            "prop": "wikitext",
-            "format": "json",
-            "formatversion": "2",
-            "redirects": "1",
-        },
-        headers={"User-Agent": USER_AGENT},
-        timeout=30,
-    )
-    r.raise_for_status()
+    params = {
+        "action": "parse",
+        "page": page,
+        "prop": "wikitext",
+        "format": "json",
+        "formatversion": "2",
+        "redirects": "1",
+    }
+    backoffs = [2, 5, 15]
+    for attempt, wait in enumerate([0, *backoffs]):
+        if wait:
+            time.sleep(wait)
+        r = requests.get(
+            WIKI_API, params=params,
+            headers={"User-Agent": USER_AGENT}, timeout=30,
+        )
+        if r.status_code == 429 or r.status_code >= 500:
+            if attempt == len(backoffs):
+                r.raise_for_status()
+            retry_after = r.headers.get("Retry-After")
+            if retry_after and retry_after.isdigit():
+                time.sleep(min(int(retry_after), 30))
+            print(f"  WARN: {page} → HTTP {r.status_code}, retrying", file=sys.stderr)
+            continue
+        r.raise_for_status()
+        break
     data = r.json()
     if "error" in data:
         print(f"  WARN: {page} → {data['error'].get('info')}", file=sys.stderr)
