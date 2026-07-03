@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T21:35:11+00:00",
+  "updated_at": "2026-07-03T21:51:23+00:00",
   "players": [
     "Monty",
     "Jess",
@@ -266,6 +266,96 @@
         "Jemima": -7,
         "Jodie": -10,
         "Meg": -32
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "scores": {
+        "Mum": 18,
+        "Dad": 13,
+        "Jess": 11,
+        "Monty": 2,
+        "Henry": 2,
+        "Alec": 1,
+        "Sam": -4,
+        "Jemima": -7,
+        "Jodie": -10,
+        "Meg": -32
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "scores": {
+        "Mum": 18,
+        "Jess": 11,
+        "Dad": 11,
+        "Henry": 4,
+        "Alec": 1,
+        "Monty": -4,
+        "Sam": -4,
+        "Jemima": -7,
+        "Jodie": -16,
+        "Meg": -32
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "scores": {
+        "Jess": 13,
+        "Mum": 12,
+        "Dad": 11,
+        "Henry": 7,
+        "Alec": 1,
+        "Monty": -4,
+        "Sam": -5,
+        "Jemima": -6,
+        "Jodie": -16,
+        "Meg": -38
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "scores": {
+        "Mum": 12,
+        "Dad": 11,
+        "Jess": 8,
+        "Henry": 7,
+        "Alec": -1,
+        "Monty": -5,
+        "Sam": -5,
+        "Jemima": -10,
+        "Jodie": -16,
+        "Meg": -36
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "scores": {
+        "Mum": 15,
+        "Dad": 11,
+        "Henry": 7,
+        "Jess": 4,
+        "Monty": -3,
+        "Sam": -7,
+        "Alec": -10,
+        "Jemima": -14,
+        "Jodie": -16,
+        "Meg": -36
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "scores": {
+        "Mum": 15,
+        "Dad": 11,
+        "Henry": 7,
+        "Jess": 4,
+        "Monty": -1,
+        "Sam": -7,
+        "Alec": -10,
+        "Jemima": -14,
+        "Jodie": -16,
+        "Meg": -36
       }
     }
   ]
