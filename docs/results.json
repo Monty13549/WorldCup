@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-03T21:51:23+00:00",
-  "match_count": 86,
+  "updated_at": "2026-07-04T07:31:11+00:00",
+  "match_count": 88,
   "upcoming_count": 8,
   "matches": [
     {
@@ -1206,9 +1206,7 @@
       "pens2": 4,
       "winner_pens": "Egypt",
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "round_of_32",
       "date": "2026-07-03",
@@ -1216,12 +1214,12 @@
       "stadium": "Hard Rock Stadium",
       "team1": "Argentina",
       "team2": "Cape Verde",
-      "score1": null,
-      "score2": null,
+      "score1": 3,
+      "score2": 2,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
+      "completed": true
     },
     {
       "stage": "round_of_32",
@@ -1230,13 +1228,15 @@
       "stadium": "Arrowhead Stadium",
       "team1": "Colombia",
       "team2": "Ghana",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 0,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-04",
@@ -1314,6 +1314,34 @@
       "stadium": "Lumen Field",
       "team1": "USA",
       "team2": "Belgium",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-07",
+      "time": "12:00 p.m. UTC−4",
+      "stadium": "Mercedes-Benz Stadium",
+      "team1": "Argentina",
+      "team2": "Egypt",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-07",
+      "time": "1:00 p.m. UTC−7",
+      "stadium": "BC Place",
+      "team1": "Switzerland",
+      "team2": "Colombia",
       "score1": null,
       "score2": null,
       "pens1": null,
