@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-04T15:47:06+00:00",
-  "results_updated_at": "2026-07-04T15:47:06+00:00",
-  "match_count": 88,
-  "upcoming_count": 8,
+  "updated_at": "2026-07-04T20:15:13+00:00",
+  "results_updated_at": "2026-07-04T20:15:13+00:00",
+  "match_count": 89,
+  "upcoming_count": 7,
   "scoring": {
     "tiers": {
       "1": {
@@ -682,70 +682,8 @@
       "rank": 1
     },
     {
-      "player": "Dad",
-      "total": 11,
-      "teams": [
-        {
-          "team": "Brazil",
-          "tier": 1,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 9,
-          "goals_against": 2,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 1
-        },
-        {
-          "team": "Iran",
-          "tier": 3,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 3,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 3
-        },
-        {
-          "team": "Canada",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 9,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 9
-        },
-        {
-          "team": "Qatar",
-          "tier": 4,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 2,
-          "goals_against": 10,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -2
-        },
-        {
-          "team": "Haiti",
-          "tier": 4,
-          "bonus": true,
-          "matches_played": 3,
-          "goals_for": 2,
-          "goals_against": 8,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 0
-        }
-      ],
-      "rank": 2
-    },
-    {
       "player": "Henry",
-      "total": 7,
+      "total": 13,
       "teams": [
         {
           "team": "France",
@@ -762,12 +700,12 @@
           "team": "Morocco",
           "tier": 2,
           "bonus": false,
-          "matches_played": 4,
-          "goals_for": 7,
+          "matches_played": 5,
+          "goals_for": 10,
           "goals_against": 4,
           "pen_wins": 1,
           "pen_losses": 0,
-          "points": 5
+          "points": 11
         },
         {
           "team": "Panama",
@@ -803,7 +741,7 @@
           "points": 4
         }
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "player": "Monty",
@@ -865,7 +803,7 @@
           "points": 11
         }
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "player": "Jess",
@@ -922,6 +860,68 @@
           "matches_played": 4,
           "goals_for": 2,
           "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 0
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "player": "Dad",
+      "total": 2,
+      "teams": [
+        {
+          "team": "Brazil",
+          "tier": 1,
+          "bonus": false,
+          "matches_played": 4,
+          "goals_for": 9,
+          "goals_against": 2,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 1
+        },
+        {
+          "team": "Iran",
+          "tier": 3,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 3,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 3
+        },
+        {
+          "team": "Canada",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 5,
+          "goals_for": 9,
+          "goals_against": 6,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 0
+        },
+        {
+          "team": "Qatar",
+          "tier": 4,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 2,
+          "goals_against": 10,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -2
+        },
+        {
+          "team": "Haiti",
+          "tier": 4,
+          "bonus": true,
+          "matches_played": 3,
+          "goals_for": 2,
+          "goals_against": 8,
           "pen_wins": 0,
           "pen_losses": 0,
           "points": 0
