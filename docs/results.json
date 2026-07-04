@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-04T20:15:13+00:00",
-  "match_count": 89,
+  "updated_at": "2026-07-04T23:47:15+00:00",
+  "match_count": 90,
   "upcoming_count": 7,
   "matches": [
     {
@@ -1248,9 +1248,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-04",
@@ -1258,13 +1256,15 @@
       "stadium": "Lincoln Financial Field",
       "team1": "Paraguay",
       "team2": "France",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 1,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-05",
@@ -1342,6 +1342,20 @@
       "stadium": "BC Place",
       "team1": "Switzerland",
       "team2": "Colombia",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-09",
+      "time": "4:00 p.m. UTC−4",
+      "stadium": "Gillette Stadium",
+      "team1": "France",
+      "team2": "Morocco",
       "score1": null,
       "score2": null,
       "pens1": null,
