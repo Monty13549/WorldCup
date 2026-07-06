@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T14:17:33+00:00",
-  "match_count": 92,
-  "upcoming_count": 6,
+  "updated_at": "2026-07-06T21:04:31+00:00",
+  "match_count": 93,
+  "upcoming_count": 5,
   "matches": [
     {
       "stage": "group_A",
@@ -1290,9 +1290,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-06",
@@ -1300,13 +1298,15 @@
       "stadium": "AT&T Stadium",
       "team1": "Portugal",
       "team2": "Spain",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 1,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-06",

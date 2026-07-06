@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-06T14:17:33+00:00",
-  "results_updated_at": "2026-07-06T14:17:33+00:00",
-  "match_count": 92,
-  "upcoming_count": 6,
+  "updated_at": "2026-07-06T21:04:31+00:00",
+  "results_updated_at": "2026-07-06T21:04:31+00:00",
+  "match_count": 93,
+  "upcoming_count": 5,
   "scoring": {
     "tiers": {
       "1": {
@@ -621,18 +621,18 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 17,
+      "total": 18,
       "teams": [
         {
           "team": "Spain",
           "tier": 1,
           "bonus": false,
-          "matches_played": 4,
-          "goals_for": 8,
+          "matches_played": 5,
+          "goals_for": 9,
           "goals_against": 0,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 8
+          "points": 9
         },
         {
           "team": "Colombia",
@@ -868,68 +868,6 @@
       "rank": 4
     },
     {
-      "player": "Sam",
-      "total": -7,
-      "teams": [
-        {
-          "team": "Portugal",
-          "tier": 1,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 8,
-          "goals_against": 2,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 0
-        },
-        {
-          "team": "Uruguay",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 3,
-          "goals_against": 4,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -6
-        },
-        {
-          "team": "Ivory Coast",
-          "tier": 3,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 5,
-          "goals_against": 4,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 7
-        },
-        {
-          "team": "Czechia",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 2,
-          "goals_against": 6,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -14
-        },
-        {
-          "team": "New Zealand",
-          "tier": 4,
-          "bonus": true,
-          "matches_played": 3,
-          "goals_for": 4,
-          "goals_against": 10,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 6
-        }
-      ],
-      "rank": 5
-    },
-    {
       "player": "Jess",
       "total": -8,
       "teams": [
@@ -987,6 +925,68 @@
           "pen_wins": 0,
           "pen_losses": 0,
           "points": 0
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "player": "Sam",
+      "total": -11,
+      "teams": [
+        {
+          "team": "Portugal",
+          "tier": 1,
+          "bonus": false,
+          "matches_played": 5,
+          "goals_for": 8,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -4
+        },
+        {
+          "team": "Uruguay",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 3,
+          "goals_against": 4,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -6
+        },
+        {
+          "team": "Ivory Coast",
+          "tier": 3,
+          "bonus": false,
+          "matches_played": 4,
+          "goals_for": 5,
+          "goals_against": 4,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 7
+        },
+        {
+          "team": "Czechia",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 2,
+          "goals_against": 6,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -14
+        },
+        {
+          "team": "New Zealand",
+          "tier": 4,
+          "bonus": true,
+          "matches_played": 3,
+          "goals_for": 4,
+          "goals_against": 10,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": 6
         }
       ],
       "rank": 6
