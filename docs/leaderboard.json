@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-05T20:01:38+00:00",
-  "results_updated_at": "2026-07-05T20:01:38+00:00",
-  "match_count": 90,
-  "upcoming_count": 7,
+  "updated_at": "2026-07-06T00:16:22+00:00",
+  "results_updated_at": "2026-07-06T00:16:22+00:00",
+  "match_count": 91,
+  "upcoming_count": 6,
   "scoring": {
     "tiers": {
       "1": {
@@ -869,18 +869,18 @@
     },
     {
       "player": "Dad",
-      "total": 2,
+      "total": -5,
       "teams": [
         {
           "team": "Brazil",
           "tier": 1,
           "bonus": false,
-          "matches_played": 4,
-          "goals_for": 9,
-          "goals_against": 2,
+          "matches_played": 5,
+          "goals_for": 10,
+          "goals_against": 4,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 1
+          "points": -6
         },
         {
           "team": "Iran",
@@ -1054,6 +1054,68 @@
       "rank": 7
     },
     {
+      "player": "Jemima",
+      "total": -18,
+      "teams": [
+        {
+          "team": "Argentina",
+          "tier": 1,
+          "bonus": false,
+          "matches_played": 4,
+          "goals_for": 11,
+          "goals_against": 3,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -1
+        },
+        {
+          "team": "Croatia",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 4,
+          "goals_for": 6,
+          "goals_against": 7,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -9
+        },
+        {
+          "team": "Norway",
+          "tier": 2,
+          "bonus": false,
+          "matches_played": 5,
+          "goals_for": 12,
+          "goals_against": 9,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -3
+        },
+        {
+          "team": "Tunisia",
+          "tier": 4,
+          "bonus": false,
+          "matches_played": 3,
+          "goals_for": 2,
+          "goals_against": 12,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -4
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "tier": 3,
+          "bonus": true,
+          "matches_played": 4,
+          "goals_for": 5,
+          "goals_against": 8,
+          "pen_wins": 0,
+          "pen_losses": 0,
+          "points": -1
+        }
+      ],
+      "rank": 8
+    },
+    {
       "player": "Jodie",
       "total": -18,
       "teams": [
@@ -1111,68 +1173,6 @@
           "pen_wins": 0,
           "pen_losses": 0,
           "points": -7
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "player": "Jemima",
-      "total": -19,
-      "teams": [
-        {
-          "team": "Argentina",
-          "tier": 1,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 11,
-          "goals_against": 3,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -1
-        },
-        {
-          "team": "Croatia",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 6,
-          "goals_against": 7,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -9
-        },
-        {
-          "team": "Norway",
-          "tier": 2,
-          "bonus": false,
-          "matches_played": 4,
-          "goals_for": 10,
-          "goals_against": 8,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -4
-        },
-        {
-          "team": "Tunisia",
-          "tier": 4,
-          "bonus": false,
-          "matches_played": 3,
-          "goals_for": 2,
-          "goals_against": 12,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -4
-        },
-        {
-          "team": "Bosnia and Herzegovina",
-          "tier": 3,
-          "bonus": true,
-          "matches_played": 4,
-          "goals_for": 5,
-          "goals_against": 8,
-          "pen_wins": 0,
-          "pen_losses": 0,
-          "points": -1
         }
       ],
       "rank": 9

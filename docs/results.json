@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T20:01:38+00:00",
-  "match_count": 90,
-  "upcoming_count": 7,
+  "updated_at": "2026-07-06T00:16:22+00:00",
+  "match_count": 91,
+  "upcoming_count": 6,
   "matches": [
     {
       "stage": "group_A",
@@ -1262,9 +1262,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-05",
@@ -1272,17 +1270,19 @@
       "stadium": "MetLife Stadium",
       "team1": "Brazil",
       "team2": "Norway",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 2,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-05",
-      "time": "6:00 p.m. UTC−6",
+      "time": "7:00 p.m. UTC−6}}",
       "stadium": "Estadio Azteca",
       "team1": "Mexico",
       "team2": "England",
