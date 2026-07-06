@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T00:16:22+00:00",
+  "updated_at": "2026-07-06T14:17:33+00:00",
   "players": [
     "Monty",
     "Jess",
@@ -379,10 +379,10 @@
         "Mum": 17,
         "Henry": 14,
         "Monty": 4,
-        "Jess": 2,
         "Dad": -5,
         "Sam": -7,
-        "Alec": -12,
+        "Jess": -8,
+        "Alec": -17,
         "Jemima": -18,
         "Jodie": -18,
         "Meg": -36
