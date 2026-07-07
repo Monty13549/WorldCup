@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-06T21:04:31+00:00",
-  "match_count": 93,
+  "updated_at": "2026-07-07T10:31:03+00:00",
+  "match_count": 94,
   "upcoming_count": 5,
   "matches": [
     {
@@ -1304,9 +1304,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-06",
@@ -1314,13 +1312,15 @@
       "stadium": "Lumen Field",
       "team1": "USA",
       "team2": "Belgium",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 4,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-07",
@@ -1356,6 +1356,20 @@
       "stadium": "Gillette Stadium",
       "team1": "France",
       "team2": "Morocco",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-10",
+      "time": "12:00 p.m. UTC−7",
+      "stadium": "SoFi Stadium",
+      "team1": "Spain",
+      "team2": "Belgium",
       "score1": null,
       "score2": null,
       "pens1": null,

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-06T21:04:31+00:00",
-  "results_updated_at": "2026-07-06T21:04:31+00:00",
-  "match_count": 93,
+  "updated_at": "2026-07-07T10:31:04+00:00",
+  "results_updated_at": "2026-07-07T10:31:03+00:00",
+  "match_count": 94,
   "upcoming_count": 5,
   "scoring": {
     "tiers": {
@@ -875,9 +875,9 @@
           "team": "Belgium",
           "tier": 1,
           "bonus": false,
-          "matches_played": 4,
-          "goals_for": 9,
-          "goals_against": 4,
+          "matches_played": 5,
+          "goals_for": 13,
+          "goals_against": 5,
           "pen_wins": 0,
           "pen_losses": 0,
           "points": -7
@@ -1179,18 +1179,18 @@
     },
     {
       "player": "Meg",
-      "total": -36,
+      "total": -51,
       "teams": [
         {
           "team": "USA",
           "tier": 1,
           "bonus": false,
-          "matches_played": 4,
-          "goals_for": 10,
-          "goals_against": 4,
+          "matches_played": 5,
+          "goals_for": 11,
+          "goals_against": 8,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -6
+          "points": -21
         },
         {
           "team": "Turkey",
