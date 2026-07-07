@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T10:31:03+00:00",
-  "match_count": 94,
-  "upcoming_count": 5,
+  "updated_at": "2026-07-07T18:32:40+00:00",
+  "match_count": 95,
+  "upcoming_count": 4,
   "matches": [
     {
       "stage": "group_A",
@@ -1318,9 +1318,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-07",
@@ -1328,13 +1326,15 @@
       "stadium": "Mercedes-Benz Stadium",
       "team1": "Argentina",
       "team2": "Egypt",
-      "score1": null,
-      "score2": null,
+      "score1": 3,
+      "score2": 2,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-07",
