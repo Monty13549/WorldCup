@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T22:42:40+00:00",
-  "results_updated_at": "2026-07-07T22:42:39+00:00",
-  "match_count": 95,
+  "updated_at": "2026-07-08T07:56:29+00:00",
+  "results_updated_at": "2026-07-08T07:56:29+00:00",
+  "match_count": 96,
   "upcoming_count": 4,
   "scoring": {
     "tiers": {
@@ -621,7 +621,7 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 18,
+      "total": 15,
       "teams": [
         {
           "team": "Spain",
@@ -638,12 +638,12 @@
           "team": "Colombia",
           "tier": 2,
           "bonus": false,
-          "matches_played": 4,
+          "matches_played": 5,
           "goals_for": 5,
           "goals_against": 1,
           "pen_wins": 0,
-          "pen_losses": 0,
-          "points": 7
+          "pen_losses": 1,
+          "points": 4
         },
         {
           "team": "Australia",
@@ -745,7 +745,7 @@
     },
     {
       "player": "Monty",
-      "total": -1,
+      "total": 2,
       "teams": [
         {
           "team": "Netherlands",
@@ -762,12 +762,12 @@
           "team": "Switzerland",
           "tier": 1,
           "bonus": false,
-          "matches_played": 4,
+          "matches_played": 5,
           "goals_for": 9,
           "goals_against": 3,
-          "pen_wins": 0,
+          "pen_wins": 1,
           "pen_losses": 0,
-          "points": -3
+          "points": 0
         },
         {
           "team": "Egypt",
