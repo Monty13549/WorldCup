@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T18:13:14+00:00",
-  "match_count": 96,
-  "upcoming_count": 4,
+  "updated_at": "2026-07-09T22:56:28+00:00",
+  "match_count": 97,
+  "upcoming_count": 3,
   "matches": [
     {
       "stage": "group_A",
@@ -1346,9 +1346,7 @@
       "pens2": 3,
       "winner_pens": "Switzerland",
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-09",
@@ -1356,13 +1354,15 @@
       "stadium": "Gillette Stadium",
       "team1": "France",
       "team2": "Morocco",
-      "score1": null,
-      "score2": null,
+      "score1": 2,
+      "score2": 0,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-10",

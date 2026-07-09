@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-09T18:13:14+00:00",
-  "results_updated_at": "2026-07-09T18:13:14+00:00",
-  "match_count": 96,
-  "upcoming_count": 4,
+  "updated_at": "2026-07-09T22:56:28+00:00",
+  "results_updated_at": "2026-07-09T22:56:28+00:00",
+  "match_count": 97,
+  "upcoming_count": 3,
   "scoring": {
     "tiers": {
       "1": {
@@ -683,29 +683,29 @@
     },
     {
       "player": "Henry",
-      "total": 14,
+      "total": 10,
       "teams": [
         {
           "team": "France",
           "tier": 1,
           "bonus": false,
-          "matches_played": 5,
-          "goals_for": 14,
+          "matches_played": 6,
+          "goals_for": 16,
           "goals_against": 2,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 6
+          "points": 8
         },
         {
           "team": "Morocco",
           "tier": 2,
           "bonus": false,
-          "matches_played": 5,
+          "matches_played": 6,
           "goals_for": 10,
-          "goals_against": 4,
+          "goals_against": 6,
           "pen_wins": 1,
           "pen_losses": 0,
-          "points": 11
+          "points": 5
         },
         {
           "team": "Panama",
