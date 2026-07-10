@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10T17:29:20+00:00",
-  "match_count": 97,
+  "updated_at": "2026-07-10T21:35:01+00:00",
+  "match_count": 98,
   "upcoming_count": 3,
   "matches": [
     {
@@ -1360,9 +1360,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-10",
@@ -1370,13 +1368,15 @@
       "stadium": "SoFi Stadium",
       "team1": "Spain",
       "team2": "Belgium",
-      "score1": null,
-      "score2": null,
+      "score1": 2,
+      "score2": 1,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-11",
@@ -1398,6 +1398,20 @@
       "stadium": "Arrowhead Stadium",
       "team1": "Argentina",
       "team2": "Switzerland",
+      "score1": null,
+      "score2": null,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": false
+    },
+    {
+      "stage": "knockout",
+      "date": "2026-07-14",
+      "time": "2:00 p.m. UTC−5",
+      "stadium": "AT&T Stadium",
+      "team1": "France",
+      "team2": "Spain",
       "score1": null,
       "score2": null,
       "pens1": null,
