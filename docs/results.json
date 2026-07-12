@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-11T21:12:00+00:00",
-  "match_count": 98,
-  "upcoming_count": 3,
+  "updated_at": "2026-07-12T07:16:59+00:00",
+  "match_count": 100,
+  "upcoming_count": 2,
   "matches": [
     {
       "stage": "group_A",
@@ -1374,9 +1374,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-11",
@@ -1384,12 +1382,12 @@
       "stadium": "Hard Rock Stadium",
       "team1": "Norway",
       "team2": "England",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 2,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
+      "completed": true
     },
     {
       "stage": "knockout",
@@ -1398,6 +1396,22 @@
       "stadium": "Arrowhead Stadium",
       "team1": "Argentina",
       "team2": "Switzerland",
+      "score1": 3,
+      "score2": 1,
+      "pens1": null,
+      "pens2": null,
+      "winner_pens": null,
+      "completed": true
+    }
+  ],
+  "upcoming": [
+    {
+      "stage": "knockout",
+      "date": "2026-07-14",
+      "time": "2:00 p.m. UTC−5",
+      "stadium": "AT&T Stadium",
+      "team1": "France",
+      "team2": "Spain",
       "score1": null,
       "score2": null,
       "pens1": null,
@@ -1407,11 +1421,11 @@
     },
     {
       "stage": "knockout",
-      "date": "2026-07-14",
-      "time": "2:00 p.m. UTC−5",
-      "stadium": "AT&T Stadium",
-      "team1": "France",
-      "team2": "Spain",
+      "date": "2026-07-15",
+      "time": "3:00 p.m. UTC−4",
+      "stadium": "Mercedes-Benz Stadium",
+      "team1": "England",
+      "team2": "Argentina",
       "score1": null,
       "score2": null,
       "pens1": null,
