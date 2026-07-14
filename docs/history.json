@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T20:42:36+00:00",
+  "updated_at": "2026-07-14T23:38:03+00:00",
   "players": [
     "Monty",
     "Jess",
@@ -453,6 +453,21 @@
       "scores": {
         "Mum": 13,
         "Henry": 10,
+        "Dad": -5,
+        "Monty": -9,
+        "Sam": -11,
+        "Jess": -15,
+        "Jodie": -18,
+        "Alec": -19,
+        "Jemima": -28,
+        "Meg": -51
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "scores": {
+        "Mum": 15,
+        "Henry": 2,
         "Dad": -5,
         "Monty": -9,
         "Sam": -11,

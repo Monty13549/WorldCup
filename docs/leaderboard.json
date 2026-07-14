@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-14T20:42:36+00:00",
-  "results_updated_at": "2026-07-14T20:42:36+00:00",
-  "match_count": 100,
-  "upcoming_count": 2,
+  "updated_at": "2026-07-14T23:38:03+00:00",
+  "results_updated_at": "2026-07-14T23:38:03+00:00",
+  "match_count": 101,
+  "upcoming_count": 1,
   "scoring": {
     "tiers": {
       "1": {
@@ -621,18 +621,18 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 13,
+      "total": 15,
       "teams": [
         {
           "team": "Spain",
           "tier": 1,
           "bonus": false,
-          "matches_played": 6,
-          "goals_for": 11,
+          "matches_played": 7,
+          "goals_for": 13,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 7
+          "points": 9
         },
         {
           "team": "Colombia",
@@ -683,18 +683,18 @@
     },
     {
       "player": "Henry",
-      "total": 10,
+      "total": 2,
       "teams": [
         {
           "team": "France",
           "tier": 1,
           "bonus": false,
-          "matches_played": 6,
+          "matches_played": 7,
           "goals_for": 16,
-          "goals_against": 2,
+          "goals_against": 4,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 8
+          "points": 0
         },
         {
           "team": "Morocco",

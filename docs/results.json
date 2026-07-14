@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-14T20:42:36+00:00",
-  "match_count": 100,
-  "upcoming_count": 2,
+  "updated_at": "2026-07-14T23:38:03+00:00",
+  "match_count": 101,
+  "upcoming_count": 1,
   "matches": [
     {
       "stage": "group_A",
@@ -1402,9 +1402,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "knockout",
       "date": "2026-07-14",
@@ -1412,13 +1410,15 @@
       "stadium": "AT&T Stadium",
       "team1": "France",
       "team2": "Spain",
-      "score1": null,
-      "score2": null,
+      "score1": 0,
+      "score2": 2,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "knockout",
       "date": "2026-07-15",
