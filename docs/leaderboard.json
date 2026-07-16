@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-15T20:39:24+00:00",
-  "results_updated_at": "2026-07-15T20:39:24+00:00",
-  "match_count": 101,
-  "upcoming_count": 1,
+  "updated_at": "2026-07-16T00:12:54+00:00",
+  "results_updated_at": "2026-07-16T00:12:54+00:00",
+  "match_count": 102,
+  "upcoming_count": 2,
   "scoring": {
     "tiers": {
       "1": {
@@ -1055,18 +1055,18 @@
     },
     {
       "player": "Alec",
-      "total": -19,
+      "total": -26,
       "teams": [
         {
           "team": "England",
           "tier": 1,
           "bonus": false,
-          "matches_played": 6,
-          "goals_for": 13,
-          "goals_against": 6,
+          "matches_played": 7,
+          "goals_for": 14,
+          "goals_against": 8,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -11
+          "points": -18
         },
         {
           "team": "Senegal",
@@ -1117,18 +1117,18 @@
     },
     {
       "player": "Jemima",
-      "total": -28,
+      "total": -30,
       "teams": [
         {
           "team": "Argentina",
           "tier": 1,
           "bonus": false,
-          "matches_played": 6,
-          "goals_for": 17,
-          "goals_against": 6,
+          "matches_played": 7,
+          "goals_for": 19,
+          "goals_against": 7,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -7
+          "points": -9
         },
         {
           "team": "Croatia",
