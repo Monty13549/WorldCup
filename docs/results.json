@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-18T21:11:00+00:00",
-  "match_count": 102,
-  "upcoming_count": 2,
+  "updated_at": "2026-07-19T06:48:40+00:00",
+  "match_count": 103,
+  "upcoming_count": 1,
   "matches": [
     {
       "stage": "group_A",
@@ -314,7 +314,7 @@
     {
       "stage": "group_D",
       "date": "2026-06-25",
-      "time": "7:00 p.m. UTC−7",
+      "time": "7:00 p.m.",
       "stadium": "SoFi Stadium",
       "team1": "Turkey",
       "team2": "USA",
@@ -1430,9 +1430,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "third_place",
       "date": "2026-07-18",
@@ -1440,13 +1438,15 @@
       "stadium": "Hard Rock Stadium",
       "team1": "France",
       "team2": "England",
-      "score1": null,
-      "score2": null,
+      "score1": 4,
+      "score2": 6,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
-    },
+      "completed": true
+    }
+  ],
+  "upcoming": [
     {
       "stage": "final",
       "date": "2026-07-19",
