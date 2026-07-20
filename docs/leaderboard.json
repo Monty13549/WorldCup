@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-19T21:32:53+00:00",
-  "results_updated_at": "2026-07-19T21:32:53+00:00",
-  "match_count": 103,
-  "upcoming_count": 1,
+  "updated_at": "2026-07-20T08:28:49+00:00",
+  "results_updated_at": "2026-07-20T08:28:49+00:00",
+  "match_count": 104,
+  "upcoming_count": 0,
   "scoring": {
     "tiers": {
       "1": {
@@ -621,18 +621,18 @@
   "leaderboard": [
     {
       "player": "Mum",
-      "total": 15,
+      "total": 16,
       "teams": [
         {
           "team": "Spain",
           "tier": 1,
           "bonus": false,
-          "matches_played": 7,
-          "goals_for": 13,
+          "matches_played": 8,
+          "goals_for": 14,
           "goals_against": 1,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": 9
+          "points": 10
         },
         {
           "team": "Colombia",
@@ -1055,18 +1055,18 @@
     },
     {
       "player": "Jemima",
-      "total": -30,
+      "total": -34,
       "teams": [
         {
           "team": "Argentina",
           "tier": 1,
           "bonus": false,
-          "matches_played": 7,
+          "matches_played": 8,
           "goals_for": 19,
-          "goals_against": 7,
+          "goals_against": 8,
           "pen_wins": 0,
           "pen_losses": 0,
-          "points": -9
+          "points": -13
         },
         {
           "team": "Croatia",

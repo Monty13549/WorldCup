@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-19T21:32:53+00:00",
-  "match_count": 103,
-  "upcoming_count": 1,
+  "updated_at": "2026-07-20T08:28:49+00:00",
+  "match_count": 104,
+  "upcoming_count": 0,
   "matches": [
     {
       "stage": "group_A",
@@ -1444,9 +1444,7 @@
       "pens2": null,
       "winner_pens": null,
       "completed": true
-    }
-  ],
-  "upcoming": [
+    },
     {
       "stage": "final",
       "date": "2026-07-19",
@@ -1454,12 +1452,13 @@
       "stadium": "MetLife Stadium",
       "team1": "Spain",
       "team2": "Argentina",
-      "score1": null,
-      "score2": null,
+      "score1": 1,
+      "score2": 0,
       "pens1": null,
       "pens2": null,
       "winner_pens": null,
-      "completed": false
+      "completed": true
     }
-  ]
+  ],
+  "upcoming": []
 }
