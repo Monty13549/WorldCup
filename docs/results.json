@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T08:28:49+00:00",
+  "updated_at": "2026-07-20T15:31:45+00:00",
   "match_count": 104,
   "upcoming_count": 0,
   "matches": [
@@ -314,7 +314,7 @@
     {
       "stage": "group_D",
       "date": "2026-06-25",
-      "time": "7:00 p.m.",
+      "time": "7:00 p.m. UTC−7",
       "stadium": "SoFi Stadium",
       "team1": "Turkey",
       "team2": "USA",
